@@ -1,8 +1,15 @@
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "extractflow"
 version = "0.1.0"
 description = "Production-grade structured web data extraction framework"
+dependencies = [
+    "beautifulsoup4",
+    "playwright"
+]
+
+[tool.setuptools.packages.find]
+include = ["extractflow*"]
