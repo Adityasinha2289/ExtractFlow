@@ -1,0 +1,878 @@
+<title>RenoCred Offer Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+/* ── tokens: complete light palette on bare :root ───────────────────── */
+:root {
+  --ground:      #f4f6f5;
+  --surface:     #ffffff;
+  --surface-2:   #eef1f0;
+  --ink:         #131a1f;
+  --ink-2:       #46545a;
+  --ink-3:       #6f7d82;
+  --rule:        #d9dedd;
+  --rule-strong: #c2cac8;
+  --accent:      #1c5f57;
+  --accent-soft: #e2efec;
+  --accent-ink:  #124540;
+
+  /* reserved status set — never reused as a categorical series colour */
+  --good:      #0ca30c;
+  --good-bg:   #e6f5e6;
+  --warning:   #fab219;
+  --warning-bg:#fdf1d8;
+  --critical:  #d03b3b;
+  --critical-bg:#f9e4e4;
+  --inactive:  #8a9599;
+  --inactive-bg:#e8ebea;
+
+  --shadow: 0 1px 2px rgba(19,26,31,.06), 0 8px 24px -12px rgba(19,26,31,.18);
+  --sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:      #101513;
+    --surface:     #171d1b;
+    --surface-2:   #1e2523;
+    --ink:         #e7ecea;
+    --ink-2:       #a7b3af;
+    --ink-3:       #7d8b87;
+    --rule:        #2a3331;
+    --rule-strong: #3a4643;
+    --accent:      #55b3a4;
+    --accent-soft: #16302c;
+    --accent-ink:  #8fd3c6;
+    --good:      #3fbf3f;
+    --good-bg:   #122a14;
+    --warning:   #fab219;
+    --warning-bg:#302506;
+    --critical:  #e2645f;
+    --critical-bg:#341617;
+    --inactive:  #7d8b87;
+    --inactive-bg:#222a28;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"] {
+  --ground:      #101513;
+  --surface:     #171d1b;
+  --surface-2:   #1e2523;
+  --ink:         #e7ecea;
+  --ink-2:       #a7b3af;
+  --ink-3:       #7d8b87;
+  --rule:        #2a3331;
+  --rule-strong: #3a4643;
+  --accent:      #55b3a4;
+  --accent-soft: #16302c;
+  --accent-ink:  #8fd3c6;
+  --good:      #3fbf3f;
+  --good-bg:   #122a14;
+  --warning:   #fab219;
+  --warning-bg:#302506;
+  --critical:  #e2645f;
+  --critical-bg:#341617;
+  --inactive:  #7d8b87;
+  --inactive-bg:#222a28;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.7);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+.wrap { max-width: 1440px; margin: 0 auto; padding: 0 24px 72px; }
+
+/* ── masthead ───────────────────────────────────────────────────────── */
+.masthead {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px;
+  padding: 28px 0 18px; border-bottom: 1px solid var(--rule);
+}
+.masthead h1 {
+  font-family: var(--serif); font-weight: 500; font-size: 30px;
+  letter-spacing: -.015em; margin: 0; text-wrap: balance;
+}
+.masthead .sub {
+  font-family: var(--mono); font-size: 11.5px; color: var(--ink-3);
+  letter-spacing: .02em; text-transform: uppercase;
+}
+.masthead .spacer { flex: 1 1 auto; }
+.thesis {
+  flex-basis: 100%; max-width: 68ch; margin: 4px 0 0;
+  color: var(--ink-2); font-size: 14.5px;
+}
+.thesis em { font-style: italic; color: var(--ink); }
+
+/* ── trust strip ────────────────────────────────────────────────────── */
+.trust {
+  display: grid; gap: 20px; padding: 22px 0 24px;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  border-bottom: 1px solid var(--rule);
+}
+@media (max-width: 900px) { .trust { grid-template-columns: 1fr; } }
+
+.figures { display: flex; flex-wrap: wrap; gap: 28px 34px; align-items: flex-start; }
+.fig .n {
+  font-family: var(--mono); font-variant-numeric: tabular-nums;
+  font-size: 30px; font-weight: 500; line-height: 1.05; letter-spacing: -.02em;
+}
+.fig.lead .n { color: var(--accent); font-size: 38px; }
+.fig .k {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .07em;
+  color: var(--ink-3); margin-top: 5px;
+}
+.fig .note { font-size: 12px; color: var(--ink-3); margin-top: 2px; }
+
+.meter-block .mlabel {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .07em;
+  color: var(--ink-3); margin-bottom: 9px;
+}
+.meter { display: flex; gap: 2px; height: 13px; }
+.meter span { border-radius: 2px; min-width: 3px; }
+.mkey { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 11px; }
+.mkey .item { display: flex; align-items: center; gap: 7px; font-size: 12.5px; }
+.mkey .dot { width: 9px; height: 9px; border-radius: 2px; flex: none; }
+.mkey .cnt {
+  font-family: var(--mono); font-variant-numeric: tabular-nums;
+  font-weight: 500; color: var(--ink);
+}
+.mkey .lab { color: var(--ink-2); }
+
+/* ── tabs ───────────────────────────────────────────────────────────── */
+.tabs { display: flex; gap: 2px; margin: 18px 0 0; border-bottom: 1px solid var(--rule); }
+.tab {
+  appearance: none; border: 0; background: none; cursor: pointer;
+  font-family: var(--sans); font-size: 13px; font-weight: 500; color: var(--ink-3);
+  padding: 10px 14px; border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tab:hover { color: var(--ink); }
+.tab[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+.tab .badge {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3); margin-left: 6px;
+  font-variant-numeric: tabular-nums;
+}
+.panel[hidden] { display: none !important; }
+
+/* ── layout: rail + table ───────────────────────────────────────────── */
+.cols { display: grid; grid-template-columns: 232px minmax(0, 1fr); gap: 24px; padding-top: 20px; }
+@media (max-width: 980px) { .cols { grid-template-columns: 1fr; } }
+
+.rail { display: flex; flex-direction: column; gap: 20px; align-self: start; position: sticky; top: 16px; }
+@media (max-width: 980px) { .rail { position: static; } }
+.grp .glabel {
+  font-size: 10.5px; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--ink-3); margin-bottom: 8px; display: flex; justify-content: space-between;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip {
+  appearance: none; cursor: pointer; font-family: var(--sans); font-size: 12px;
+  padding: 4px 9px; border-radius: 3px; border: 1px solid var(--rule-strong);
+  background: var(--surface); color: var(--ink-2);
+}
+.chip:hover { border-color: var(--accent); color: var(--ink); }
+.chip[aria-pressed="true"] {
+  background: var(--accent-soft); border-color: var(--accent); color: var(--accent-ink); font-weight: 500;
+}
+.chip .c { font-family: var(--mono); font-size: 10.5px; opacity: .7; margin-left: 4px; }
+
+.search {
+  width: 100%; font-family: var(--sans); font-size: 13px; padding: 8px 10px;
+  border: 1px solid var(--rule-strong); border-radius: 3px;
+  background: var(--surface); color: var(--ink);
+}
+.search::placeholder { color: var(--ink-3); }
+.reset {
+  appearance: none; border: 0; background: none; cursor: pointer; padding: 0;
+  font-family: var(--sans); font-size: 11px; color: var(--accent); text-decoration: underline;
+}
+
+/* ── table ──────────────────────────────────────────────────────────── */
+.tablecard {
+  background: var(--surface); border: 1px solid var(--rule); border-radius: 4px;
+  box-shadow: var(--shadow); overflow: hidden;
+}
+.tbar {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 10px 14px; border-bottom: 1px solid var(--rule); background: var(--surface-2);
+}
+.tbar .count { font-family: var(--mono); font-size: 12px; font-variant-numeric: tabular-nums; }
+.tbar .count b { font-weight: 600; }
+.tbar .hint { font-size: 12px; color: var(--ink-3); margin-left: auto; }
+
+.scroll { overflow-x: auto; max-height: 74vh; overflow-y: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--surface);
+  text-align: left; font-size: 10.5px; text-transform: uppercase; letter-spacing: .07em;
+  color: var(--ink-3); font-weight: 600; padding: 9px 12px;
+  border-bottom: 1px solid var(--rule-strong); white-space: nowrap;
+}
+thead th.sortable { cursor: pointer; user-select: none; }
+thead th.sortable:hover { color: var(--ink); }
+thead th .arrow { opacity: .45; font-size: 9px; margin-left: 3px; }
+tbody tr { border-bottom: 1px solid var(--rule); cursor: pointer; }
+tbody tr:hover { background: var(--surface-2); }
+tbody tr[aria-selected="true"] { background: var(--accent-soft); }
+tbody td { padding: 9px 12px; vertical-align: top; }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ttl { font-weight: 500; line-height: 1.35; }
+.mrc { color: var(--ink-3); font-size: 12px; margin-top: 2px; }
+.empty { padding: 44px 16px; text-align: center; color: var(--ink-3); }
+
+/* ── chips / badges ─────────────────────────────────────────────────── */
+.pill {
+  display: inline-flex; align-items: center; gap: 5px; white-space: nowrap;
+  font-size: 11px; font-weight: 500; padding: 2px 7px; border-radius: 3px;
+  font-family: var(--sans);
+}
+.pill .g { width: 6px; height: 6px; border-radius: 50%; flex: none; }
+.pill.verified { background: var(--good-bg); color: var(--good); }
+.pill.review   { background: var(--warning-bg); color: var(--warning); }
+.pill.conflict { background: var(--critical-bg); color: var(--critical); }
+.pill.expired  { background: var(--inactive-bg); color: var(--inactive); }
+:root:not([data-theme="dark"]) .pill.review { color: #7a5405; }
+
+.tier {
+  display: inline-block; font-family: var(--mono); font-size: 10.5px; font-weight: 600;
+  width: 17px; height: 17px; line-height: 16px; text-align: center; border-radius: 2px;
+  border: 1px solid currentColor;
+}
+.tier.S { color: var(--accent); }
+.tier.A { color: var(--ink-2); }
+.tier.B, .tier.C, .tier.D { color: var(--ink-3); border-style: dashed; }
+
+.bar { height: 4px; border-radius: 2px; background: var(--surface-2); overflow: hidden; width: 46px; }
+.bar > i { display: block; height: 100%; background: var(--accent); border-radius: 2px; }
+
+/* ── drawer ─────────────────────────────────────────────────────────── */
+.scrim {
+  position: fixed; inset: 0; background: rgba(19,26,31,.32);
+  z-index: 40; backdrop-filter: blur(1px);
+}
+.drawer {
+  position: fixed; top: 0; right: 0; bottom: 0; width: min(560px, 94vw);
+  background: var(--surface); border-left: 1px solid var(--rule);
+  box-shadow: -12px 0 40px -20px rgba(0,0,0,.5);
+  z-index: 41; display: flex; flex-direction: column;
+}
+.dhead {
+  padding: 18px 22px 14px; border-bottom: 1px solid var(--rule);
+  display: flex; gap: 14px; align-items: flex-start;
+}
+.dhead h2 {
+  font-family: var(--serif); font-weight: 500; font-size: 20px; margin: 0 0 6px;
+  letter-spacing: -.01em; text-wrap: balance; line-height: 1.25;
+}
+.dclose {
+  appearance: none; border: 1px solid var(--rule-strong); background: var(--surface);
+  color: var(--ink-2); cursor: pointer; border-radius: 3px; width: 28px; height: 28px;
+  font-size: 15px; line-height: 1; flex: none;
+}
+.dclose:hover { border-color: var(--accent); color: var(--accent); }
+.dbody { overflow-y: auto; padding: 4px 22px 40px; }
+.sect { padding: 16px 0; border-bottom: 1px solid var(--rule); }
+.sect:last-child { border-bottom: 0; }
+.sect > h3 {
+  font-size: 10.5px; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--ink-3); font-weight: 600; margin: 0 0 10px;
+}
+.kv { display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 7px 14px; font-size: 13px; }
+.kv dt { color: var(--ink-3); }
+.kv dd { margin: 0; word-break: break-word; }
+.kv dd.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+.notes { margin: 0; padding-left: 17px; display: flex; flex-direction: column; gap: 7px; font-size: 13px; }
+.notes li { line-height: 1.45; }
+.notes.warn li { color: var(--ink-2); }
+.quote {
+  border-left: 2px solid var(--rule-strong); padding: 2px 0 2px 12px;
+  color: var(--ink-2); font-size: 12.5px; line-height: 1.5;
+}
+.conf-row { display: flex; align-items: center; gap: 10px; }
+.conf-bar { flex: 1; height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; max-width: 180px; }
+.conf-bar > i { display: block; height: 100%; border-radius: 3px; }
+a { color: var(--accent); }
+a.doc { display: block; font-size: 12.5px; margin-bottom: 6px; word-break: break-all; }
+.tag {
+  display: inline-block; font-family: var(--mono); font-size: 11px;
+  background: var(--surface-2); border: 1px solid var(--rule); border-radius: 2px;
+  padding: 1px 6px; margin: 0 4px 4px 0;
+}
+
+/* ── source + gap tables ────────────────────────────────────────────── */
+.plain { width: 100%; border-collapse: collapse; font-size: 13px; }
+.plain th {
+  text-align: left; font-size: 10.5px; text-transform: uppercase; letter-spacing: .07em;
+  color: var(--ink-3); font-weight: 600; padding: 9px 12px; border-bottom: 1px solid var(--rule-strong);
+}
+.plain td { padding: 11px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.plain tr.deferred td { color: var(--ink-3); }
+.why { font-size: 12px; color: var(--ink-3); line-height: 1.45; margin-top: 3px; max-width: 62ch; }
+.role {
+  font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--ink-3); font-family: var(--sans); font-weight: 600;
+}
+.secnote { max-width: 72ch; color: var(--ink-2); font-size: 13.5px; margin: 0 0 16px; }
+.secnote strong { color: var(--ink); font-weight: 600; }
+h2.shead {
+  font-family: var(--serif); font-weight: 500; font-size: 21px; margin: 26px 0 8px;
+  letter-spacing: -.01em;
+}
+h2.shead:first-of-type { margin-top: 4px; }
+.foot {
+  margin-top: 34px; padding-top: 16px; border-top: 1px solid var(--rule);
+  font-size: 12px; color: var(--ink-3); max-width: 82ch; line-height: 1.55;
+}
+.foot code {
+  font-family: var(--mono); font-size: 11.5px; background: var(--surface-2);
+  border: 1px solid var(--rule); border-radius: 2px; padding: 1px 5px;
+}
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <h1>RenoCred Offer Ledger</h1>
+    <span class="sub" id="stamp"></span>
+    <span class="spacer"></span>
+    <p class="thesis">
+      A verification-first extract of live Indian credit-card offers. The dataset's
+      own principle is that <em>offer count is a vanity metric until trust is
+      established</em> — so this reads as an audit surface, not a deals list. Every
+      row carries where it came from, how sure we are, and when it was last checked.
+    </p>
+  </header>
+
+  <section class="trust">
+    <div class="figures" id="figures"></div>
+    <div class="meter-block">
+      <div class="mlabel">Verification state — all <span id="totalOffers"></span> records</div>
+      <div class="meter" id="meter"></div>
+      <div class="mkey" id="mkey"></div>
+    </div>
+  </section>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-panel="p-offers">Offers<span class="badge" id="tabOffers"></span></button>
+    <button class="tab" role="tab" aria-selected="false" data-panel="p-sources">Sources<span class="badge" id="tabSources"></span></button>
+    <button class="tab" role="tab" aria-selected="false" data-panel="p-quality">Data quality</button>
+  </div>
+
+  <!-- ── offers ─────────────────────────────────────────────────────── -->
+  <section class="panel" id="p-offers">
+    <div class="cols">
+      <aside class="rail">
+        <div class="grp">
+          <div class="glabel"><span>Search</span><button class="reset" id="reset">Reset all</button></div>
+          <input class="search" id="q" type="search" placeholder="Merchant, title, code…" autocomplete="off">
+        </div>
+        <div class="grp"><div class="glabel">Verification</div><div class="chips" id="f-vs"></div></div>
+        <div class="grp"><div class="glabel">Window</div><div class="chips" id="f-life"></div></div>
+        <div class="grp"><div class="glabel">Source tier</div><div class="chips" id="f-tier"></div></div>
+        <div class="grp"><div class="glabel">Issuer / network</div><div class="chips" id="f-iss"></div></div>
+        <div class="grp"><div class="glabel">Benefit</div><div class="chips" id="f-btype"></div></div>
+      </aside>
+
+      <div class="tablecard">
+        <div class="tbar">
+          <span class="count"><b id="shown">0</b> of <span id="total">0</span> offers</span>
+          <span class="hint">Select a row for its full provenance</span>
+        </div>
+        <div class="scroll">
+          <table>
+            <thead>
+              <tr>
+                <th class="sortable" data-sort="title">Offer</th>
+                <th>Benefit</th>
+                <th class="sortable" data-sort="cap">Cap</th>
+                <th class="sortable" data-sort="until">Valid to</th>
+                <th class="sortable" data-sort="cards">Cards</th>
+                <th class="sortable" data-sort="src">Source</th>
+                <th class="sortable" data-sort="conf">Trust</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+          <div class="empty" id="empty" hidden>No offers match these filters.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── sources ────────────────────────────────────────────────────── -->
+  <section class="panel" id="p-sources" hidden>
+    <h2 class="shead">Sources ingested</h2>
+    <p class="secnote">
+      Tier is authority, not popularity. <strong>S</strong> is the party that grants
+      the offer and <strong>A</strong> is its contracted infrastructure — only these
+      two can certify a record. <strong>B</strong> and <strong>C</strong> are
+      discovery-grade: they can flag that an offer exists and queue it for checking,
+      but nothing they say can move a record to verified.
+    </p>
+    <div class="tablecard">
+      <table class="plain">
+        <thead><tr><th>Source</th><th>Tier</th><th>Role</th><th>Offers</th><th>Retrieved by</th></tr></thead>
+        <tbody id="srcRows"></tbody>
+      </table>
+    </div>
+
+    <h2 class="shead">Registered but not ingested</h2>
+    <p class="secnote">
+      Recorded with reasons rather than quietly dropped, so a gap reads as a decision
+      instead of an oversight. No authentication, CAPTCHA or paywall was bypassed for
+      any source.
+    </p>
+    <div class="tablecard">
+      <table class="plain">
+        <thead><tr><th>Source</th><th>Tier</th><th>Why it is not here</th></tr></thead>
+        <tbody id="defRows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── quality ────────────────────────────────────────────────────── -->
+  <section class="panel" id="p-quality" hidden>
+    <h2 class="shead">What the pipeline caught</h2>
+    <p class="secnote">
+      Findings the verification stage produced on its own, from live pages, on the
+      run that built this dataset.
+    </p>
+    <div id="findings"></div>
+
+    <h2 class="shead">Field coverage</h2>
+    <p class="secnote">
+      A null here means the source did not state the value. Nothing is inferred to
+      fill a column — an invented cap or an assumed expiry is worse than an honest gap.
+    </p>
+    <div class="tablecard">
+      <table class="plain">
+        <thead><tr><th>Field</th><th>Populated</th><th></th></tr></thead>
+        <tbody id="covRows"></tbody>
+      </table>
+    </div>
+
+    <h2 class="shead">Records that failed validation</h2>
+    <p class="secnote" id="valNote"></p>
+    <div class="tablecard">
+      <table class="plain">
+        <thead><tr><th>Offer</th><th>Why</th></tr></thead>
+        <tbody id="valRows"></tbody>
+      </table>
+    </div>
+
+    <h2 class="shead">Merchant partnership gaps</h2>
+    <p class="secnote">
+      Merchants several issuers already partner with, where one issuer is absent. An
+      absence is a place to look next, not evidence that no offer exists.
+    </p>
+    <div class="tablecard">
+      <table class="plain">
+        <thead><tr><th>Merchant</th><th>Known partners</th><th>Worth researching</th></tr></thead>
+        <tbody id="gapRows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<script id="offer-data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  "use strict";
+  const D = JSON.parse(document.getElementById("offer-data").textContent);
+  const OFFERS = D.offers, META = D.meta;
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const inr = (n) => n == null ? null : "₹" + Number(n).toLocaleString("en-IN",
+    { maximumFractionDigits: 0 });
+  const titleCase = (s) => String(s || "").replace(/_/g, " ").toLowerCase()
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+
+  /* ── status vocabulary: colour never travels without its label ────── */
+  const VS = {
+    VERIFIED:      { cls: "verified", label: "Verified",     v: "var(--good)" },
+    NEEDS_REVIEW:  { cls: "review",   label: "Needs review", v: "var(--warning)" },
+    CONFLICTED:    { cls: "conflict", label: "Conflicted",   v: "var(--critical)" },
+    EXPIRED:       { cls: "expired",  label: "Expired",      v: "var(--inactive)" },
+    LIKELY_ACTIVE: { cls: "verified", label: "Likely active",v: "var(--good)" },
+    UNKNOWN:       { cls: "expired",  label: "Unknown",      v: "var(--inactive)" }
+  };
+  const vs = (k) => VS[k] || { cls: "expired", label: titleCase(k), v: "var(--inactive)" };
+  const pill = (k) => {
+    const s = vs(k);
+    return `<span class="pill ${s.cls}"><span class="g" style="background:${s.v}"></span>${s.label}</span>`;
+  };
+
+  /* ── benefit rendered per mechanism — never flattened to one number ─ */
+  function benefitText(o) {
+    const upTo = o.rate_type === "UP_TO";
+    const pre = upTo ? "up to " : "";
+    if (o.pct != null) return pre + (+o.pct) + "% off";
+    if (o.cb != null) return pre + (+o.cb) + "% cashback";
+    if (o.mult != null) return pre + (+o.mult) + "× reward points";
+    if (o.flat != null) return "flat " + inr(o.flat) + " off";
+    if (o.cap != null) return "up to " + inr(o.cap);
+    return titleCase(o.btype);
+  }
+
+  /* ── trust strip ──────────────────────────────────────────────────── */
+  const liveVerified = OFFERS.filter((o) => o.life === "ACTIVE" && o.vs === "VERIFIED").length;
+  const linked = OFFERS.filter((o) => o.cards.length).length;
+  const srcOk = D.sources.filter((s) => s.status === "OK");
+
+  $("#stamp").textContent = "Built " + String(META.generated_at).slice(0, 16).replace("T", " ")
+    + " · schema " + META.schema_version;
+  $("#totalOffers").textContent = OFFERS.length;
+  $("#tabOffers").textContent = OFFERS.length;
+  $("#tabSources").textContent = D.sources.length;
+
+  $("#figures").innerHTML = [
+    { n: liveVerified, k: "Live &amp; verified", note: "in window, S/A-tier, no open conflict", lead: true },
+    { n: OFFERS.length, k: "Records held", note: "every state, including expired" },
+    { n: srcOk.length, k: "Sources ingested", note: D.sources.length - srcOk.length + " registered, not ingested" },
+    { n: linked, k: "Linked to a card", note: "resolved to real card ids" },
+    { n: D.merchant_count, k: "Merchants", note: "canonical, alias-resolved" }
+  ].map((f) => `<div class="fig${f.lead ? " lead" : ""}">
+      <div class="n">${f.n}</div><div class="k">${f.k}</div><div class="note">${f.note}</div>
+    </div>`).join("");
+
+  const order = ["VERIFIED", "NEEDS_REVIEW", "CONFLICTED", "EXPIRED"];
+  const counts = {};
+  OFFERS.forEach((o) => { counts[o.vs] = (counts[o.vs] || 0) + 1; });
+  const present = order.filter((k) => counts[k]).concat(
+    Object.keys(counts).filter((k) => !order.includes(k)));
+  $("#meter").innerHTML = present.map((k) =>
+    `<span style="background:${vs(k).v};flex:${counts[k]}" title="${vs(k).label}: ${counts[k]}"></span>`).join("");
+  $("#mkey").innerHTML = present.map((k) =>
+    `<span class="item"><span class="dot" style="background:${vs(k).v}"></span>
+      <span class="cnt">${counts[k]}</span><span class="lab">${vs(k).label}</span></span>`).join("");
+
+  /* ── filters ──────────────────────────────────────────────────────── */
+  const state = { q: "", vs: new Set(), life: new Set(), tier: new Set(), iss: new Set(), btype: new Set() };
+  const issuerOf = (o) => o.issuer || (o.network ? o.network + " (network)" : "—");
+
+  function facet(id, key, values, fmt) {
+    const box = $(id);
+    box.innerHTML = values.map(([v, n]) =>
+      `<button class="chip" role="button" aria-pressed="false" data-v="${esc(v)}">${
+        fmt ? fmt(v) : esc(v)}<span class="c">${n}</span></button>`).join("");
+    box.addEventListener("click", (e) => {
+      const b = e.target.closest(".chip");
+      if (!b) return;
+      const v = b.dataset.v, on = b.getAttribute("aria-pressed") === "true";
+      b.setAttribute("aria-pressed", String(!on));
+      on ? state[key].delete(v) : state[key].add(v);
+      render();
+    });
+  }
+  const tally = (fn) => {
+    const m = new Map();
+    OFFERS.forEach((o) => { const v = fn(o); if (v) m.set(v, (m.get(v) || 0) + 1); });
+    return [...m.entries()].sort((a, b) => b[1] - a[1]);
+  };
+
+  facet("#f-vs", "vs", order.filter((k) => counts[k]).map((k) => [k, counts[k]]), (v) => vs(v).label);
+  facet("#f-life", "life", tally((o) => o.life), titleCase);
+  facet("#f-tier", "tier", tally((o) => o.tier).sort(), (v) => "Tier " + v);
+  facet("#f-iss", "iss", tally(issuerOf));
+  facet("#f-btype", "btype", tally((o) => o.btype), titleCase);
+
+  $("#q").addEventListener("input", (e) => { state.q = e.target.value.toLowerCase().trim(); render(); });
+  $("#reset").addEventListener("click", () => {
+    state.q = ""; $("#q").value = "";
+    ["vs", "life", "tier", "iss", "btype"].forEach((k) => state[k].clear());
+    document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", "false"));
+    render();
+  });
+
+  /* ── sorting ──────────────────────────────────────────────────────── */
+  let sortKey = "conf", sortDir = -1;
+  const sortVal = {
+    title: (o) => (o.title || "").toLowerCase(),
+    cap:   (o) => o.cap == null ? -1 : o.cap,
+    until: (o) => o.until || "",
+    cards: (o) => o.cards.length,
+    src:   (o) => (o.src || "").toLowerCase(),
+    conf:  (o) => o.conf == null ? -1 : o.conf
+  };
+  document.querySelectorAll("th.sortable").forEach((th) => {
+    th.addEventListener("click", () => {
+      const k = th.dataset.sort;
+      if (k === sortKey) sortDir = -sortDir; else { sortKey = k; sortDir = k === "title" || k === "src" ? 1 : -1; }
+      render();
+    });
+  });
+
+  /* ── table ────────────────────────────────────────────────────────── */
+  let view = [];
+  function matches(o) {
+    if (state.vs.size && !state.vs.has(o.vs)) return false;
+    if (state.life.size && !state.life.has(o.life)) return false;
+    if (state.tier.size && !state.tier.has(o.tier)) return false;
+    if (state.iss.size && !state.iss.has(issuerOf(o))) return false;
+    if (state.btype.size && !state.btype.has(o.btype)) return false;
+    if (state.q) {
+      const hay = [o.title, o.merchant, o.issuer, o.code, o.src, o.cat, o.btext]
+        .filter(Boolean).join(" ").toLowerCase();
+      if (!hay.includes(state.q)) return false;
+    }
+    return true;
+  }
+
+  function render() {
+    view = OFFERS.filter(matches).sort((a, b) => {
+      const f = sortVal[sortKey], x = f(a), y = f(b);
+      return (x < y ? -1 : x > y ? 1 : 0) * sortDir;
+    });
+    $("#shown").textContent = view.length;
+    $("#total").textContent = OFFERS.length;
+    $("#empty").hidden = view.length > 0;
+
+    document.querySelectorAll("th.sortable").forEach((th) => {
+      const on = th.dataset.sort === sortKey;
+      th.innerHTML = th.textContent.replace(/[▲▼]\s*$/, "").trim()
+        + (on ? ` <span class="arrow">${sortDir > 0 ? "▲" : "▼"}</span>` : "");
+    });
+
+    $("#rows").innerHTML = view.map((o, i) => `
+      <tr data-i="${i}" tabindex="0">
+        <td>
+          <div class="ttl">${esc(o.title)}</div>
+          <div class="mrc">${esc(o.merchant || "—")}${o.cat ? " · " + titleCase(o.cat) : ""}</div>
+        </td>
+        <td>${esc(benefitText(o))}</td>
+        <td class="num">${o.cap == null ? "<span style='color:var(--ink-3)'>—</span>" : inr(o.cap)}</td>
+        <td class="num">${o.until || "<span style='color:var(--ink-3)'>—</span>"}</td>
+        <td class="num">${o.cards.length || "<span style='color:var(--ink-3)'>—</span>"}</td>
+        <td><span class="tier ${o.tier}">${o.tier}</span> <span style="color:var(--ink-2)">${esc(o.src)}</span></td>
+        <td>
+          ${pill(o.vs)}
+          <div class="bar" style="margin-top:5px" title="confidence ${o.conf}">
+            <i style="width:${Math.round((o.conf || 0) * 100)}%"></i>
+          </div>
+        </td>
+      </tr>`).join("");
+  }
+
+  $("#rows").addEventListener("click", (e) => {
+    const tr = e.target.closest("tr"); if (tr) open(+tr.dataset.i);
+  });
+  $("#rows").addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const tr = e.target.closest("tr"); if (tr) { e.preventDefault(); open(+tr.dataset.i); }
+  });
+
+  /* ── drawer ───────────────────────────────────────────────────────── */
+  function row(k, v, mono) {
+    if (v == null || v === "" || (Array.isArray(v) && !v.length)) return "";
+    return `<dt>${k}</dt><dd class="${mono ? "mono" : ""}">${v}</dd>`;
+  }
+  function open(i) {
+    const o = view[i]; if (!o) return;
+    document.querySelectorAll("#rows tr").forEach((t) =>
+      t.setAttribute("aria-selected", String(+t.dataset.i === i)));
+
+    const window_ = (o.from || "?") + " → " + (o.until || "no stated end");
+    const docs = o.docs.map((d) => `<a class="doc" href="${esc(d.u)}" target="_blank" rel="noopener">
+        ${d.t === "OUTLET_LIST" ? "Outlet list" : "Terms &amp; conditions"} —
+        ${d.p ? d.n + " entries parsed" : "not parsed"}</a>`).join("");
+
+    const conflicts = o.conflicts.map((c) => `
+      <div class="quote" style="margin-bottom:8px">
+        <strong style="font-family:var(--mono);font-size:12px">${esc(c.field)}</strong><br>
+        ${c.values.map((v) => `${esc(String(v.value))} — ${esc(v.source)} (tier ${esc(v.tier)})`).join("<br>")}
+      </div>`).join("");
+
+    $("#drawerHost").innerHTML = `
+      <div class="scrim" data-close="1"></div>
+      <aside class="drawer" role="dialog" aria-modal="true" aria-label="Offer detail">
+        <div class="dhead">
+          <div style="flex:1">
+            <h2>${esc(o.title)}</h2>
+            ${pill(o.vs)}
+            <span class="pill expired" style="margin-left:4px">
+              <span class="g" style="background:var(--inactive)"></span>${titleCase(o.life)}</span>
+          </div>
+          <button class="dclose" data-close="1" aria-label="Close">✕</button>
+        </div>
+        <div class="dbody">
+          ${o.desc ? `<div class="sect"><h3>Summary</h3><p style="margin:0;color:var(--ink-2)">${esc(o.desc)}</p>
+            <p style="margin:8px 0 0;font-size:12px;color:var(--ink-3)">Written from the extracted fields, not copied from the bank's page.</p></div>` : ""}
+
+          <div class="sect"><h3>Benefit</h3><dl class="kv">
+            ${row("Mechanism", titleCase(o.btype))}
+            ${row("Nature", titleCase(o.bnature))}
+            ${row("Rate", o.pct != null ? o.pct + "%" : o.cb != null ? o.cb + "% cashback" : o.mult != null ? o.mult + "×" : null, true)}
+            ${row("Rate is", o.rate_type === "UP_TO" ? "a ceiling — most transactions will not reach it" : o.rate_type === "EXACT" ? "a definite rate" : null)}
+            ${row("Flat amount", inr(o.flat), true)}
+            ${row("Maximum benefit", o.cap == null ? "<span style='color:var(--ink-3)'>not stated by the source</span>" : inr(o.cap), o.cap != null)}
+            ${row("Minimum spend", o.min == null ? "<span style='color:var(--ink-3)'>not stated</span>" : inr(o.min), o.min != null)}
+            ${row("Source wording", o.btext ? `<span class="quote" style="display:block">${esc(o.btext)}</span>` : null)}
+          </dl></div>
+
+          <div class="sect"><h3>Eligibility</h3><dl class="kv">
+            ${row("Issuer", esc(o.issuer))}
+            ${row("Network", esc(o.network))}
+            ${row("Granted by", titleCase(o.grantor))}
+            ${row("Transaction", titleCase(o.txn))}
+            ${row("Redemption", titleCase(o.rtype))}
+            ${row("Promo code", o.code ? esc(o.code) : null, true)}
+            ${row("Cards matched", o.cards.length ? o.cards.map((c) => `<span class="tag">${esc(c)}</span>`).join("") : null)}
+            ${row("Unresolved slugs", o.unmatched.length
+              ? `<span style="color:var(--ink-3);font-size:12.5px">${o.unmatched.length} card slug${o.unmatched.length > 1 ? "s" : ""} the source names that the card master does not carry — kept so eligibility is never widened by a failed lookup</span>`
+              : null)}
+            ${row("Locations", o.loc_n ? esc(o.loc.join(", ")) + (o.loc_n > o.loc.length ? ` +${o.loc_n - o.loc.length} more` : "") : null)}
+          </dl>
+          ${o.rules.length ? `<h3 style="margin-top:16px">Stated conditions</h3>
+            <ul class="notes">${o.rules.map((r) => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
+          ${docs ? `<h3 style="margin-top:16px">Linked eligibility documents</h3>
+            <p style="font-size:12px;color:var(--ink-3);margin:0 0 8px">These PDFs, not the offer tile, are the real scope.</p>${docs}` : ""}
+          </div>
+
+          ${o.review.length || conflicts ? `<div class="sect"><h3>Why this needs a human</h3>
+            ${conflicts}
+            <ul class="notes warn">${o.review.map((r) => `<li>${esc(r)}</li>`).join("")}</ul></div>` : ""}
+
+          <div class="sect"><h3>Provenance</h3><dl class="kv">
+            ${row("Source", `<span class="tier ${o.tier}">${o.tier}</span> ${esc(o.src)}`)}
+            ${row("Source type", titleCase(o.stype))}
+            ${row("Validity window", esc(window_), true)}
+            ${row("Last verified", esc(o.verified_at), true)}
+            ${row("Extracted by", esc(o.method), true)}
+            ${row("Evidence items", o.ev_n, true)}
+            ${row("Completeness", Math.round((o.compl || 0) * 100) + "%", true)}
+            ${row("Confidence", `<div class="conf-row"><span class="mono">${o.conf}</span>
+               <span class="conf-bar"><i style="width:${Math.round((o.conf || 0) * 100)}%;background:${vs(o.vs).v}"></i></span>
+               <span style="font-size:12px;color:var(--ink-3)">${titleCase(o.band)}</span></div>`)}
+            ${row("Offer id", esc(o.id), true)}
+            ${row("Page", `<a href="${esc(o.durl || o.url)}" target="_blank" rel="noopener">Open source page</a>`)}
+          </dl></div>
+        </div>
+      </aside>`;
+    document.body.style.overflow = "hidden";
+  }
+  function close() {
+    $("#drawerHost").innerHTML = "";
+    document.body.style.overflow = "";
+    document.querySelectorAll("#rows tr").forEach((t) => t.setAttribute("aria-selected", "false"));
+  }
+  document.addEventListener("click", (e) => { if (e.target.closest("[data-close]")) close(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
+
+  /* ── sources ──────────────────────────────────────────────────────── */
+  const ok = D.sources.filter((s) => s.status !== "DEFERRED");
+  $("#srcRows").innerHTML = ok.map((s) => `
+    <tr>
+      <td><strong>${esc(s.name)}</strong>
+        <div class="why"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a></div></td>
+      <td><span class="tier ${esc(s.tier)}">${esc(s.tier)}</span></td>
+      <td><span class="role">${esc(s.role || "—")}</span></td>
+      <td class="num" style="font-family:var(--mono)">${s.count}</td>
+      <td style="color:var(--ink-3);font-family:var(--mono);font-size:12px">${esc(s.method || "—")}</td>
+    </tr>`).join("");
+
+  $("#defRows").innerHTML = D.sources.filter((s) => s.status === "DEFERRED").map((s) => `
+    <tr class="deferred">
+      <td><strong style="color:var(--ink-2)">${esc(s.name)}</strong>
+        <div class="why">${esc(s.url)}</div></td>
+      <td><span class="tier ${esc(s.tier)}">${esc(s.tier)}</span></td>
+      <td><div class="why" style="margin:0">${esc(s.reason)}</div></td>
+    </tr>`).join("");
+
+  /* ── quality ──────────────────────────────────────────────────────── */
+  const conflicted = OFFERS.filter((o) => o.vs === "CONFLICTED");
+  const expiredS = OFFERS.filter((o) => o.vs === "EXPIRED" && o.tier === "S").length;
+  const unresolved = OFFERS.filter((o) => o.unmatched.length).length;
+  const withDocs = OFFERS.filter((o) => o.docs.length).length;
+  const parsedDocs = OFFERS.reduce((n, o) => n + o.docs.filter((d) => d.p).length, 0);
+  const allDocs = OFFERS.reduce((n, o) => n + o.docs.length, 0);
+
+  const findings = [
+    conflicted.length ? {
+      t: "A live page disagrees with the record of a change",
+      b: `${conflicted.length} record held at <strong>Conflicted</strong>. `
+       + esc(conflicted[0].title) + " — the issuer's own page still advertises this rate, "
+       + "while the programme was reported cut. Both figures are kept, the record is pulled "
+       + "out of ranking, and confidence is capped until a person rules. It is never averaged, "
+       + "and never resolved by taking the nicer number."
+    } : null,
+    expiredS ? {
+      t: "A campaign microsite is still serving last year's offers",
+      b: `${expiredS} S-tier records are past their stated end date and marked `
+       + "<strong>Expired</strong> rather than shown as live. The page is still up; the offers are not."
+    } : null,
+    unresolved ? {
+      t: "The card master does not carry every card the sources name",
+      b: `${unresolved} records name card slugs — retired and merged-bank products — that do not `
+       + "resolve against the 518-card master. They are kept verbatim, so a failed lookup can never "
+       + "quietly widen who an offer applies to."
+    } : null,
+    withDocs ? {
+      t: "The real eligibility scope is in linked PDFs, not the offer tile",
+      b: `${withDocs} records link an outlet list or terms PDF; ${parsedDocs} of ${allDocs} were `
+       + "fetched and parsed within this run's time budget. Records whose documents were not read "
+       + "keep their review flag rather than presenting the tile summary as the full scope."
+    } : null
+  ].filter(Boolean);
+
+  $("#findings").innerHTML = findings.map((f) => `
+    <div class="tablecard" style="padding:16px 18px;margin-bottom:10px">
+      <div style="font-family:var(--serif);font-size:17px;font-weight:500;margin-bottom:6px">${f.t}</div>
+      <div style="color:var(--ink-2);max-width:76ch">${f.b}</div>
+    </div>`).join("");
+
+  $("#covRows").innerHTML = Object.entries(META.coverage_by_field).map(([f, v]) => {
+    const [n, d] = v.split("/").map(Number), pc = Math.round((n / d) * 100);
+    return `<tr>
+      <td style="font-family:var(--mono);font-size:12.5px">${esc(f)}</td>
+      <td class="num" style="font-family:var(--mono);white-space:nowrap">${v}</td>
+      <td style="width:40%"><div class="bar" style="width:100%"><i style="width:${pc}%"></i></div></td>
+    </tr>`;
+  }).join("");
+
+  $("#valNote").textContent = META.invalid_count + " of " + META.offer_count
+    + " records fail the ingestion gate. They are surfaced rather than dropped — a network-wide"
+    + " campaign genuinely has no single merchant, and two coupon titles could not be resolved to one.";
+  $("#valRows").innerHTML = D.validation_errors.map((e) => `
+    <tr><td style="font-family:var(--mono);font-size:12.5px">${esc(e.offer_id)}</td>
+        <td style="color:var(--ink-2)">${esc(e.errors.join("; "))}</td></tr>`).join("")
+    || `<tr><td colspan="2" style="color:var(--ink-3)">None.</td></tr>`;
+
+  $("#gapRows").innerHTML = D.gaps.map((g) => `
+    <tr><td><strong>${esc(g.merchant_name)}</strong></td>
+        <td style="color:var(--ink-2)">${esc(g.known_partners.join(", "))}</td>
+        <td>${g.unresearched_issuers.map((i) => `<span class="tag">${esc(i)}</span>`).join("")}</td></tr>`).join("")
+    || `<tr><td colspan="3" style="color:var(--ink-3)">None flagged.</td></tr>`;
+
+  $("#foot").innerHTML = "Built by the RenoCred offer pipeline on ExtractFlow. "
+    + META.offer_count + " records from " + srcOk.length + " live sources, "
+    + META.merchant_count + " canonical merchants, "
+    + META.card_linkage.offers_linked_to_card_master + " linked to the "
+    + META.card_linkage.card_master_card_count + "-card master. "
+    + "Rebuild with <code>python -m renocred_offers.build</code>; query a wallet with "
+    + "<code>python -m renocred_offers.query --cards &lt;card_id&gt; --spend 8000</code>. "
+    + "This is an extract for review, not advice — confirm any offer with the issuer before relying on it.";
+
+  /* ── tabs ─────────────────────────────────────────────────────────── */
+  document.querySelectorAll(".tab").forEach((t) => {
+    t.addEventListener("click", () => {
+      document.querySelectorAll(".tab").forEach((x) => x.setAttribute("aria-selected", String(x === t)));
+      document.querySelectorAll(".panel").forEach((p) => { p.hidden = p.id !== t.dataset.panel; });
+    });
+  });
+
+  render();
+})();
+</script>
+<div id="drawerHost"></div>

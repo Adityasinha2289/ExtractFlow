@@ -25,6 +25,8 @@ def test_validator():
     validate({}, {})
 
 
-def test_exporter():
+def test_exporter(tmp_path):
     assert callable(export_json)
-    export_json({}, "dummy.json")
+    # export_json now really writes, so give it a temp path rather than
+    # dropping a dummy.json into the repo root on every test run.
+    export_json({}, str(tmp_path / "dummy.json"))

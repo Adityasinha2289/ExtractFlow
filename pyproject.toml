@@ -6,10 +6,29 @@ build-backend = "setuptools.build_meta"
 name = "extractflow"
 version = "0.1.0"
 description = "Production-grade structured web data extraction framework"
+requires-python = ">=3.10"
 dependencies = [
     "beautifulsoup4",
-    "playwright"
+    "requests",
 ]
 
+[project.optional-dependencies]
+# Only needed for genuinely client-rendered sources; static extraction and the
+# embedded-JSON path work without a browser.
+dynamic = ["playwright"]
+# Config-driven pipelines (YAML source registries) and linked-PDF ingestion.
+pipelines = ["PyYAML", "pypdf"]
+# Spreadsheet export.
+excel = ["openpyxl"]
+dev = ["pytest", "flake8", "black"]
+
 [tool.setuptools.packages.find]
-include = ["extractflow*"]
+include = ["extractflow*", "renocred_offers*"]
+
+[tool.setuptools.package-data]
+# The viewer template ships with the package so `python -m renocred_offers.viewer`
+# works from an installed copy, not only from a checkout.
+renocred_offers = ["templates/*.html"]
+
+[tool.black]
+line-length = 88

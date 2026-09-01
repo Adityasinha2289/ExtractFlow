@@ -1,0 +1,274 @@
+{
+  "generated_at": "2026-09-01T20:43:35.597002",
+  "pipeline": "extract=ok(466 in 63500ms) -> enrich_linked_pdfs=ok(466 in 429171ms) -> reconcile=ok(434 in 15ms) -> verify_and_score=ok(434 in 109ms) -> validate=ok(434 in 78ms)",
+  "sources": [
+    {
+      "key": "sbicard_offers",
+      "name": "SBI Card",
+      "url": "https://www.sbicard.com/en/personal/offers.page",
+      "tier": "S",
+      "role": "TRUTH",
+      "source_type": "ISSUER_PORTAL",
+      "vendor": null,
+      "issuer": "SBI Card",
+      "network": null,
+      "status": "OK",
+      "count": 118,
+      "method": "cache"
+    },
+    {
+      "key": "sbicard_festive",
+      "name": "SBI Card Festive Offers",
+      "url": "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html",
+      "tier": "S",
+      "role": "TRUTH",
+      "source_type": "ISSUER_CAMPAIGN",
+      "vendor": null,
+      "issuer": "SBI Card",
+      "network": null,
+      "status": "OK",
+      "count": 79,
+      "method": "cache"
+    },
+    {
+      "key": "gyftr_sbicard",
+      "name": "SBI Card GyFTR Voucher Catalogue",
+      "url": "https://www.gyftr.com/sbicard",
+      "tier": "A",
+      "role": "TRUTH",
+      "source_type": "INFRA_VENDOR",
+      "vendor": "GyFTR",
+      "issuer": "SBI Card",
+      "network": null,
+      "status": "OK",
+      "count": 36,
+      "method": "cache"
+    },
+    {
+      "key": "gyftr_edgerewards",
+      "name": "Axis GIFT EDGE (GyFTR)",
+      "url": "https://www.gyftr.com/edgerewards",
+      "tier": "A",
+      "role": "TRUTH",
+      "source_type": "INFRA_VENDOR",
+      "vendor": "GyFTR",
+      "issuer": "Axis Bank",
+      "network": null,
+      "status": "OK",
+      "count": 18,
+      "method": "cache"
+    },
+    {
+      "key": "smartbuy_terms",
+      "name": "HDFC SmartBuy Terms (GyFTR-powered)",
+      "url": "https://smartbuy.myimaginestore.com/terms-conditions",
+      "tier": "S",
+      "role": "TRUTH",
+      "source_type": "ISSUER_PORTAL",
+      "vendor": "GyFTR",
+      "issuer": "HDFC Bank",
+      "network": null,
+      "status": "OK",
+      "count": 3,
+      "method": "cache"
+    },
+    {
+      "key": "axis_edge_rewards",
+      "name": "Axis EDGE Rewards",
+      "url": "https://edgerewards.axis.bank.in/lms/",
+      "tier": "S",
+      "role": "TRUTH",
+      "source_type": "ISSUER_PORTAL",
+      "vendor": null,
+      "issuer": "Axis Bank",
+      "network": null,
+      "status": "OK",
+      "count": 106,
+      "method": "cache"
+    },
+    {
+      "key": "visa_welcome",
+      "name": "Visa India Welcome Offer",
+      "url": "https://www.visa.co.in/pay-with-visa/welcome-offer.html",
+      "tier": "S",
+      "role": "TRUTH",
+      "source_type": "NETWORK_PROGRAM",
+      "vendor": null,
+      "issuer": null,
+      "network": "Visa",
+      "status": "OK",
+      "count": 1,
+      "method": "cache"
+    },
+    {
+      "key": "priceless_specials",
+      "name": "Mastercard Priceless Specials India",
+      "url": "https://specials.priceless.com/en-in/homepage",
+      "tier": "S",
+      "role": "TRUTH",
+      "source_type": "NETWORK_PROGRAM",
+      "vendor": null,
+      "issuer": null,
+      "network": "Mastercard",
+      "status": "OK",
+      "count": 0,
+      "method": "cache"
+    },
+    {
+      "key": "bankbazaar_mastercard",
+      "name": "BankBazaar - Mastercard Offers",
+      "url": "https://www.bankbazaar.com/mastercard-credit-card-offers.html",
+      "tier": "B",
+      "role": "DISCOVERY",
+      "source_type": "AGGREGATOR",
+      "vendor": null,
+      "issuer": null,
+      "network": "Mastercard",
+      "status": "OK",
+      "count": 29,
+      "method": "cache"
+    },
+    {
+      "key": "paisabazaar_visa",
+      "name": "Paisabazaar - Visa Offers",
+      "url": "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/",
+      "tier": "B",
+      "role": "DISCOVERY",
+      "source_type": "AGGREGATOR",
+      "vendor": null,
+      "issuer": null,
+      "network": "Visa",
+      "status": "OK",
+      "count": 24,
+      "method": "cache"
+    },
+    {
+      "key": "grabon_sbi",
+      "name": "GrabOn - SBI Card Offers",
+      "url": "https://www.grabon.in/sbi-card-offers/",
+      "tier": "C",
+      "role": "DISCOVERY",
+      "source_type": "AGGREGATOR",
+      "vendor": null,
+      "issuer": "SBI Card",
+      "network": null,
+      "status": "OK",
+      "count": 52,
+      "method": "cache"
+    },
+    {
+      "key": "hdfc_smartbuy",
+      "name": "HDFC SmartBuy portal",
+      "url": "https://offers.smartbuy.hdfcbank.com/",
+      "tier": "S",
+      "role": "DEFERRED",
+      "status": "DEFERRED",
+      "count": 0,
+      "method": null,
+      "reason": "Host did not resolve from this network on 2026-09-01 (DNS/connection error); the main hdfcbank.com offers page returns Cloudflare 403. The GyFTR-powered SmartBuy terms surface is ingested instead."
+    },
+    {
+      "key": "icici_ishop",
+      "name": "ICICI iShop",
+      "url": "https://campaigns.icicibank.com/credit-card/iShop/index.html",
+      "tier": "S",
+      "role": "DEFERRED",
+      "status": "DEFERRED",
+      "count": 0,
+      "method": null,
+      "reason": "Returns a 197-byte JS bootstrap shell with no offer payload."
+    },
+    {
+      "key": "visa_offers_perks",
+      "name": "Visa Offers & Perks India",
+      "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/",
+      "tier": "S",
+      "role": "DEFERRED",
+      "status": "DEFERRED",
+      "count": 0,
+      "method": null,
+      "reason": "2.2 KB shell; offer content loads from a gated downstream service."
+    },
+    {
+      "key": "poshvine",
+      "name": "Visa Offers (Poshvine white-label)",
+      "url": "https://visaoffers.poshvine.com/",
+      "tier": "A",
+      "role": "DEFERRED",
+      "status": "DEFERRED",
+      "count": 0,
+      "method": null,
+      "reason": "Bank-instance content sits behind cardholder login. Only the public teaser is legitimately observable and it carries no structured offers."
+    },
+    {
+      "key": "mastercard_in",
+      "name": "Mastercard India offers",
+      "url": "https://www.mastercard.co.in/en-in/personal/offers-and-promotions.html",
+      "tier": "S",
+      "role": "DEFERRED",
+      "status": "DEFERRED",
+      "count": 0,
+      "method": null,
+      "reason": "Edge returns HTTP 403 to non-browser clients."
+    },
+    {
+      "key": "rupay",
+      "name": "RuPay",
+      "url": "https://www.rupay.co.in/",
+      "tier": "S",
+      "role": "DEFERRED",
+      "status": "DEFERRED",
+      "count": 0,
+      "method": null,
+      "reason": "Edge returns HTTP 403 to non-browser clients."
+    }
+  ],
+  "reconciliation": {
+    "input_count": 466,
+    "output_count": 434,
+    "exact_duplicate_count": 32,
+    "duplicate_count": 32,
+    "cross_source_merged": 0,
+    "conflicted_count": 0,
+    "group_count": 409
+  },
+  "validation": {
+    "total": 434,
+    "valid_count": 431,
+    "invalid_count": 3,
+    "invalid_indexes": [
+      328,
+      417,
+      418
+    ]
+  },
+  "validation_errors": [
+    {
+      "offer_id": "visa_welcome__1f0616b0da",
+      "errors": [
+        "missing required field: merchant.merchant_id"
+      ]
+    },
+    {
+      "offer_id": "grabon_sbi__af0bf8476d",
+      "errors": [
+        "missing required field: merchant.merchant_id"
+      ]
+    },
+    {
+      "offer_id": "grabon_sbi__08b2ec5fb3",
+      "errors": [
+        "missing required field: merchant.merchant_id"
+      ]
+    }
+  ],
+  "linked_pdf_enrichment": {
+    "documents_seen": 158,
+    "fetched": 108,
+    "parsed": 101,
+    "failed": 7,
+    "too_large": 1,
+    "skipped_over_budget": 49,
+    "records_enriched": 54
+  }
+}

@@ -1,0 +1,212 @@
+# RenoCred Offer Intelligence - Source Registry
+#
+# Derived from Master Plan Section 4 (Source Discovery Matrix) and Section 6
+# (Source Authority Framework). Tiers are S (official first-party) through D
+# (signal only, never terms).
+#
+# Stage 1 scope per Section 22 / Section 28: build narrow and deep against the
+# S/A-tier sources first. B/C-tier entries are registered as DISCOVERY only -
+# they can seed NEEDS_REVIEW but can never certify an offer (Section 6).
+#
+# Every entry was reachability- and robots.txt-checked on 2026-09-01; the
+# `status` field records what that check found, so a source that is registered
+# but currently unreachable is visible rather than silently missing.
+
+defaults:
+  timeout: 40
+  retries: 3
+  default_delay: 1.5
+  respect_robots: true
+  user_agent: >-
+    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+    (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+sources:
+
+  # ---------------------------------------------------------------- issuers
+  - key: sbicard_offers
+    name: SBI Card
+    issuer: SBI Card
+    tier: S
+    source_type: ISSUER_PORTAL
+    role: TRUTH
+    url: https://www.sbicard.com/en/personal/offers.page
+    adapter: sbicard_offers
+    strategy: embedded-json
+    notes: >-
+      The offer grid renders client-side but the complete dataset ships inline
+      as `var offerData={...}`. Extracting the blob is exact and avoids a
+      browser entirely. Carries per-offer card-slug eligibility lists, real
+      start/end dates and city scope - the richest single source researched.
+
+  - key: sbicard_festive
+    name: SBI Card Festive Offers
+    issuer: SBI Card
+    tier: S
+    source_type: ISSUER_CAMPAIGN
+    role: TRUTH
+    url: https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html
+    adapter: sbicard_festive
+    strategy: html-grid
+    notes: >-
+      Section 5 item 2 in practice: each tile links an "Outlet List" and a
+      "T&C" PDF that are the actual eligibility scope. Those links are captured
+      as linked_eligibility_documents rather than being ignored in favour of the
+      tile summary.
+
+  - key: gyftr_sbicard
+    name: SBI Card GyFTR Voucher Catalogue
+    issuer: SBI Card
+    tier: A
+    source_type: INFRA_VENDOR
+    vendor: GyFTR
+    role: TRUTH
+    url: https://www.gyftr.com/sbicard
+    adapter: gyftr
+    strategy: next-data
+    notes: Voucher-purchase accelerators. A-tier - vendor and bank T&C can drift.
+
+  - key: gyftr_edgerewards
+    name: Axis GIFT EDGE (GyFTR)
+    issuer: Axis Bank
+    tier: A
+    source_type: INFRA_VENDOR
+    vendor: GyFTR
+    role: TRUTH
+    url: https://www.gyftr.com/edgerewards
+    adapter: gyftr
+    strategy: next-data
+    fallback_strategy: dynamic
+    wait_for_selector: div.productList1
+    notes: >-
+      Same vendor as gyftr_sbicard but a client-rendered build, so one parser
+      template covers both surfaces - the Section 21 item 1 leverage point.
+
+  - key: smartbuy_terms
+    name: HDFC SmartBuy Terms (GyFTR-powered)
+    issuer: HDFC Bank
+    tier: S
+    source_type: ISSUER_PORTAL
+    vendor: GyFTR
+    role: TRUTH
+    url: https://smartbuy.myimaginestore.com/terms-conditions
+    adapter: smartbuy_terms
+    strategy: html-text
+    crawl_delay: 30
+    notes: >-
+      robots.txt declares crawl-delay 30 and it is honoured. Parsed for cap and
+      exclusion language (the Corporate/Commercial carve-out), not for offer
+      tiles.
+
+  - key: axis_edge_rewards
+    name: Axis EDGE Rewards
+    issuer: Axis Bank
+    tier: S
+    source_type: ISSUER_PORTAL
+    role: TRUTH
+    url: https://edgerewards.axis.bank.in/lms/
+    adapter: axis_edge
+    strategy: html-grid
+    notes: Reward-store catalogue; redemption economics rather than discounts.
+
+  # --------------------------------------------------------------- networks
+  - key: visa_welcome
+    name: Visa India Welcome Offer
+    network: Visa
+    tier: S
+    source_type: NETWORK_PROGRAM
+    role: TRUTH
+    url: https://www.visa.co.in/pay-with-visa/welcome-offer.html
+    adapter: visa_welcome
+    strategy: html-text
+    notes: Single fixed-window campaign, explicitly new-cardholder-only.
+
+  - key: priceless_specials
+    name: Mastercard Priceless Specials India
+    network: Mastercard
+    tier: S
+    source_type: NETWORK_PROGRAM
+    role: TRUTH
+    url: https://specials.priceless.com/en-in/homepage
+    adapter: priceless
+    strategy: dynamic
+    wait_for_selector: div.offer-item, div.offer-card, div.merchant-item
+    notes: >-
+      Card-family filter is gated behind a card-binding dialog; only the public
+      teaser layer is read. No authentication is attempted (Section 5).
+
+  # ------------------------------------------------ aggregators (DISCOVERY)
+  - key: bankbazaar_mastercard
+    name: BankBazaar - Mastercard Offers
+    tier: B
+    source_type: AGGREGATOR
+    role: DISCOVERY
+    url: https://www.bankbazaar.com/mastercard-credit-card-offers.html
+    adapter: aggregator_tables
+    strategy: html-tables
+    network: Mastercard
+    notes: Discovery-grade only. Seeds NEEDS_REVIEW; can never reach VERIFIED.
+
+  - key: paisabazaar_visa
+    name: Paisabazaar - Visa Offers
+    tier: B
+    source_type: AGGREGATOR
+    role: DISCOVERY
+    url: https://www.paisabazaar.com/credit-card/visa-credit-card-offers/
+    adapter: aggregator_tables
+    strategy: html-tables
+    network: Visa
+    notes: Secondary discovery feed; cross-checked against BankBazaar.
+
+  - key: grabon_sbi
+    name: GrabOn - SBI Card Offers
+    tier: C
+    source_type: AGGREGATOR
+    role: DISCOVERY
+    url: https://www.grabon.in/sbi-card-offers/
+    adapter: grabon
+    strategy: html-grid
+    issuer: SBI Card
+    notes: >-
+      Coupon-site cadence, noisy and duplicate-heavy. Registered so its codes
+      trigger verification jobs against the S-tier SBI source, never as terms.
+
+# Sources registered but deliberately NOT ingested in Stage 1.
+# Recording them keeps the Phase 3C.1 follow-up list explicit rather than
+# letting an omission look like an oversight.
+deferred:
+  - key: hdfc_smartbuy
+    name: HDFC SmartBuy portal
+    url: https://offers.smartbuy.hdfcbank.com/
+    tier: S
+    reason: >-
+      Host did not resolve from this network on 2026-09-01 (DNS/connection
+      error); the main hdfcbank.com offers page returns Cloudflare 403. The
+      GyFTR-powered SmartBuy terms surface is ingested instead.
+  - key: icici_ishop
+    name: ICICI iShop
+    url: https://campaigns.icicibank.com/credit-card/iShop/index.html
+    tier: S
+    reason: Returns a 197-byte JS bootstrap shell with no offer payload.
+  - key: visa_offers_perks
+    name: Visa Offers & Perks India
+    url: https://www.visa.co.in/en_in/visa-offers-and-perks/
+    tier: S
+    reason: 2.2 KB shell; offer content loads from a gated downstream service.
+  - key: poshvine
+    name: Visa Offers (Poshvine white-label)
+    url: https://visaoffers.poshvine.com/
+    tier: A
+    reason: >-
+      Bank-instance content sits behind cardholder login. Only the public
+      teaser is legitimately observable and it carries no structured offers.
+  - key: mastercard_in
+    name: Mastercard India offers
+    url: https://www.mastercard.co.in/en-in/personal/offers-and-promotions.html
+    tier: S
+    reason: Edge returns HTTP 403 to non-browser clients.
+  - key: rupay
+    name: RuPay
+    url: https://www.rupay.co.in/
+    tier: S
+    reason: Edge returns HTTP 403 to non-browser clients.

@@ -1,2 +1,5 @@
 [flake8]
 max-line-length = 88
+# E203 is a documented black/flake8 disagreement on slice whitespace;
+# black is the formatter of record here.
+extend-ignore = E203
