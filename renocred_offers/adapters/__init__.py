@@ -1,0 +1,1 @@
+"""Per-source extraction adapters."""

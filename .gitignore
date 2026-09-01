@@ -4,7 +4,13 @@ __pycache__/
 .env
 .venv
 build/
+dist/
 *.egg-info
 .pytest_cache
 __pycache__
 .ruff_cache
+
+# Raw source snapshots are evidence for a single run, not source, and grow to
+# hundreds of MB across a full crawl. The built datasets in output/ are kept:
+# they are the deliverable this pipeline exists to produce.
+output/snapshots/

@@ -1,0 +1,5998 @@
+{
+  "metadata": {
+    "dataset_name": "renocred_merchant_master",
+    "generated_at": "2026-09-01T20:43:35.597002",
+    "merchant_count": 371
+  },
+  "data": [
+    {
+      "merchant_id": "m_abhibus",
+      "merchant_name": "Abhibus",
+      "alias_key": "abhibus",
+      "merchant_category": "TRAVEL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "AbhiBus",
+        "abhibus"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html",
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_acer",
+      "merchant_name": "Acer",
+      "alias_key": "acer",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Acer"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_adani_one_airport_car_parking",
+      "merchant_name": "Adani One Airport Car Parking",
+      "alias_key": "adani one airport car parking",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Adani One-Airport Car Parking"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_additional",
+      "merchant_name": "Additional",
+      "alias_key": "additional",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Additional"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_aditya",
+      "merchant_name": "Aditya",
+      "alias_key": "aditya",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Aditya"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_agoda",
+      "merchant_name": "Agoda",
+      "alias_key": "agoda",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Agoda"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_air",
+      "merchant_name": "Air India",
+      "alias_key": "air",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Air",
+        "Air India"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/",
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_ajio",
+      "merchant_name": "AJIO",
+      "alias_key": "ajio",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "AJIO"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_akbar_travels",
+      "merchant_name": "Akbar Travels",
+      "alias_key": "akbar travels",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Akbar Travels"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_akshay_tritiya",
+      "merchant_name": "Akshay Tritiya",
+      "alias_key": "akshay tritiya",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Akshay Tritiya"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_allen_solly",
+      "merchant_name": "Allen Solly",
+      "alias_key": "allen solly",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Allen Solly"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_amazon",
+      "merchant_name": "Amazon",
+      "alias_key": "amazon",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Amazon",
+        "Amazon Shopping Voucher",
+        "amazon"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_amazon_prime_membership",
+      "merchant_name": "Amazon Prime Membership",
+      "alias_key": "amazon prime membership",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Amazon Prime Membership"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_american_tourister_clane_51_cm_duffle_bag",
+      "merchant_name": "AMERICAN TOURISTER Clane 51 cm Duffle Bag",
+      "alias_key": "american tourister clane 51 cm duffle bag",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "AMERICAN TOURISTER Clane 51 cm Duffle Bag"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_american_tourister_sprint_plus_55cm_cabin_4_wheel_hard_trolley",
+      "merchant_name": "AMERICAN TOURISTER Sprint Plus 55cm (Cabin) 4 Wheel Hard Trolley",
+      "alias_key": "american tourister sprint plus 55cm cabin 4 wheel hard trolley",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "AMERICAN TOURISTER Sprint Plus 55cm (Cabin) 4 Wheel Hard Trolley"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_american_tourister_trot_01_backpack",
+      "merchant_name": "American Tourister TROT 01 BACKPACK",
+      "alias_key": "american tourister trot 01 backpack",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "American Tourister TROT 01 BACKPACK"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_american_tourister_trot_3_0_style_01_laptop_backpack",
+      "merchant_name": "AMERICAN TOURISTER Trot 3.0 Style 01 Laptop Backpack",
+      "alias_key": "american tourister trot 3 0 style 01 laptop backpack",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "AMERICAN TOURISTER Trot 3.0 Style 01 Laptop Backpack"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_anand_world",
+      "merchant_name": "Anand World",
+      "alias_key": "anand world",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Anand World"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_apna_mart",
+      "merchant_name": "Apna Mart",
+      "alias_key": "apna mart",
+      "merchant_category": "DINING",
+      "merchant_subcategory": null,
+      "aliases": [
+        "apna-mart"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_apollo_hospital",
+      "merchant_name": "Apollo Hospital",
+      "alias_key": "apollo hospital",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Apollo Hospital"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_apollo_pharmacy",
+      "merchant_name": "Apollo Pharmacy",
+      "alias_key": "apollo pharmacy",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Apollo Pharmacy"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard",
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_apple",
+      "merchant_name": "Apple",
+      "alias_key": "apple",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Apple"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_apple_airpods_3rd_generation_mme73hn_a",
+      "merchant_name": "Apple AirPods (3rd generation) MME73HN/A",
+      "alias_key": "apple airpods 3rd generation mme73hn a",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Apple AirPods (3rd generation) MME73HN/A"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_apply",
+      "merchant_name": "Apply",
+      "alias_key": "apply",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Apply"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_arcadio_thunder_bluetooth_speaker",
+      "merchant_name": "Arcadio Thunder Bluetooth Speaker",
+      "alias_key": "arcadio thunder bluetooth speaker",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Arcadio Thunder Bluetooth Speaker"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_archies_rs_500",
+      "merchant_name": "Archies Rs. 500",
+      "alias_key": "archies rs 500",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Archies Rs. 500"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_arundhati_jewellers",
+      "merchant_name": "Arundhati Jewellers",
+      "alias_key": "arundhati jewellers",
+      "merchant_category": "JEWELLERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Arundhati Jewellers"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_asus",
+      "merchant_name": "ASUS",
+      "alias_key": "asus",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "ASUS"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_ather",
+      "merchant_name": "Ather",
+      "alias_key": "ather",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Ather"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_avani_riverside_mall",
+      "merchant_name": "Avani Riverside Mall",
+      "alias_key": "avani riverside mall",
+      "merchant_category": "RETAIL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Avani Riverside Mall"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_awfis",
+      "merchant_name": "Awfis",
+      "alias_key": "awfis",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Awfis"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_b_new_mobiles",
+      "merchant_name": "B New Mobiles",
+      "alias_key": "b new mobiles",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "B-New Mobiles"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_bacca_bucci",
+      "merchant_name": "Bacca Bucci",
+      "alias_key": "bacca bucci",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bacca Bucci"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_bagatt",
+      "merchant_name": "Bagatt",
+      "alias_key": "bagatt",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bagatt"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_bajaj",
+      "merchant_name": "Bajaj",
+      "alias_key": "bajaj",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "bajaj"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_bajaj_ninja_series_quartz_750w_3jars_mixer_grinder",
+      "merchant_name": "BAJAJ Ninja Series Quartz 750W 3Jars Mixer Grinder",
+      "alias_key": "bajaj ninja series quartz 750w 3jars mixer grinder",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "BAJAJ Ninja Series Quartz 750W 3Jars Mixer Grinder"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_bank",
+      "merchant_name": "Bank",
+      "alias_key": "bank",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bank"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_bansal",
+      "merchant_name": "Bansal",
+      "alias_key": "bansal",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bansal"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_bantia",
+      "merchant_name": "Bantia",
+      "alias_key": "bantia",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bantia"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_bare_necessities",
+      "merchant_name": "Bare Necessities",
+      "alias_key": "bare necessities",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bare Necessities"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_bata",
+      "merchant_name": "Bata",
+      "alias_key": "bata",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bata"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_bath_body_works",
+      "merchant_name": "Bath & Body Works",
+      "alias_key": "bath body works",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bath & Body Works"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard",
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_behrouz_biryani",
+      "merchant_name": "Behrouz Biryani",
+      "alias_key": "behrouz biryani",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Behrouz Biryani"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html",
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_beurer_hr_2000_precision_cordless_nose_ear_and_eyebrow_trimmer",
+      "merchant_name": "Beurer HR 2000 Precision Cordless Nose, Ear and Eyebrow Trimmer",
+      "alias_key": "beurer hr 2000 precision cordless nose ear and eyebrow trimmer",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Beurer HR 2000 Precision Cordless Nose, Ear and Eyebrow Trimmer"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_bewakoof",
+      "merchant_name": "Bewakoof",
+      "alias_key": "bewakoof",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bewakoof"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_bhajanlal_commercial",
+      "merchant_name": "Bhajanlal Commercial",
+      "alias_key": "bhajanlal commercial",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bhajanlal Commercial"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_bharti_axa",
+      "merchant_name": "BHARTI Axa",
+      "alias_key": "bharti axa",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "BHARTI Axa"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_bhatia_mobile",
+      "merchant_name": "Bhatia Mobile",
+      "alias_key": "bhatia mobile",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bhatia Mobile"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_bianca_home",
+      "merchant_name": "Bianca Home",
+      "alias_key": "bianca home",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bianca Home"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_big_basket",
+      "merchant_name": "Big Basket",
+      "alias_key": "big basket",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Big Basket"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_big_c",
+      "merchant_name": "Big C",
+      "alias_key": "big c",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "big-c"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_big_c_mobile",
+      "merchant_name": "Big C Mobile",
+      "alias_key": "big c mobile",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Big C Mobile"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_bigbasket",
+      "merchant_name": "BigBasket",
+      "alias_key": "bigbasket",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "BigBasket"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_blackberry",
+      "merchant_name": "Blackberry",
+      "alias_key": "blackberry",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Blackberry"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_bluestar",
+      "merchant_name": "Bluestar",
+      "alias_key": "bluestar",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bluestar"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_bluestone_diamond",
+      "merchant_name": "BlueStone Diamond",
+      "alias_key": "bluestone diamond",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "BlueStone Diamond"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_boat_airdopes_joy_wireless_tws",
+      "merchant_name": "Boat Airdopes Joy Wireless TWS",
+      "alias_key": "boat airdopes joy wireless tws",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Boat Airdopes Joy Wireless TWS"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_bodycraft_clinic_and_salon",
+      "merchant_name": "Bodycraft Clinic and Salon",
+      "alias_key": "bodycraft clinic and salon",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bodycraft Clinic and Salon"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_borosil_hydra_trek_vacuum_insulated_bottle_700ml",
+      "merchant_name": "Borosil Hydra Trek Vacuum Insulated Bottle 700ml",
+      "alias_key": "borosil hydra trek vacuum insulated bottle 700ml",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Borosil Hydra Trek Vacuum Insulated Bottle 700ml"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_bosch",
+      "merchant_name": "Bosch",
+      "alias_key": "bosch",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Bosch"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_bosch_mgm8842din_blender_truemixx_pro_1000w_4_jars_mixer_grinder",
+      "merchant_name": "BOSCH MGM8842DIN Blender TrueMixx Pro 1000W 4 Jars Mixer Grinder",
+      "alias_key": "bosch mgm8842din blender truemixx pro 1000w 4 jars mixer grinder",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "BOSCH MGM8842DIN Blender TrueMixx Pro 1000W 4 Jars Mixer Grinder"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_boyanika",
+      "merchant_name": "Boyanika",
+      "alias_key": "boyanika",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Boyanika"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_buy",
+      "merchant_name": "Buy",
+      "alias_key": "buy",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Buy"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_campus_sutra",
+      "merchant_name": "Campus Sutra",
+      "alias_key": "campus sutra",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Campus Sutra"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_caratlane",
+      "merchant_name": "Caratlane",
+      "alias_key": "caratlane",
+      "merchant_category": "JEWELLERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Caratlane"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_carrier",
+      "merchant_name": "Carrier",
+      "alias_key": "carrier",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Carrier"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_cat_spiral_fun_7",
+      "merchant_name": "Cat Spiral Fun 7",
+      "alias_key": "cat spiral fun 7",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Cat Spiral Fun-7"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_central_mall_guwahati",
+      "merchant_name": "Central Mall Guwahati",
+      "alias_key": "central mall guwahati",
+      "merchant_category": "RETAIL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Central Mall Guwahati"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_chicago_pizza",
+      "merchant_name": "Chicago Pizza",
+      "alias_key": "chicago pizza",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Chicago Pizza"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_chinese_wok",
+      "merchant_name": "Chinese Wok",
+      "alias_key": "chinese wok",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Chinese Wok"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_city_bazaar_metro",
+      "merchant_name": "City Bazaar Metro",
+      "alias_key": "city bazaar metro",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "city-bazaar-metro"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_clear_tax",
+      "merchant_name": "Clear Tax",
+      "alias_key": "clear tax",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Clear Tax"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_cleartrip_rs_2000",
+      "merchant_name": "Cleartrip Rs. 2000",
+      "alias_key": "cleartrip rs 2000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Cleartrip Rs. 2000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_clove_dental",
+      "merchant_name": "Clove Dental",
+      "alias_key": "clove dental",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "clove-dental"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_clovia",
+      "merchant_name": "Clovia",
+      "alias_key": "clovia",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Clovia"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_codingal",
+      "merchant_name": "Codingal",
+      "alias_key": "codingal",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Codingal"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_colorbar",
+      "merchant_name": "Colorbar",
+      "alias_key": "colorbar",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Colorbar"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_daikin",
+      "merchant_name": "Daikin",
+      "alias_key": "daikin",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Daikin"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_damro",
+      "merchant_name": "Damro",
+      "alias_key": "damro",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Damro"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_decathlon",
+      "merchant_name": "Decathlon",
+      "alias_key": "decathlon",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Decathlon"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_dell",
+      "merchant_name": "Dell",
+      "alias_key": "dell",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Dell"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_digi1",
+      "merchant_name": "Digi1",
+      "alias_key": "digi1",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Digi1"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_digi1_electronics",
+      "merchant_name": "Digi1 Electronics",
+      "alias_key": "digi1 electronics",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Digi1 Electronics"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_doctor_set_disney_characters_mix",
+      "merchant_name": "Doctor Set (Disney Characters mix)",
+      "alias_key": "doctor set disney characters mix",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Doctor Set (Disney Characters mix)"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_domino_s",
+      "merchant_name": "DOMINO'S",
+      "alias_key": "domino s",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "DOMINO'S"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_doms_smart_kit",
+      "merchant_name": "Doms Smart Kit",
+      "alias_key": "doms smart kit",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Doms - Smart Kit"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_ds_mills",
+      "merchant_name": "Ds Mills",
+      "alias_key": "ds mills",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "ds-mills"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_durian",
+      "merchant_name": "Durian",
+      "alias_key": "durian",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Durian"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_duroflex",
+      "merchant_name": "Duroflex",
+      "alias_key": "duroflex",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Duroflex"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_dyson",
+      "merchant_name": "Dyson",
+      "alias_key": "dyson",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Dyson"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_easemytrip",
+      "merchant_name": "EaseMyTrip",
+      "alias_key": "easemytrip",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "EaseMyTrip"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_easybuy",
+      "merchant_name": "EasyBuy",
+      "alias_key": "easybuy",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "EasyBuy"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_eatsure",
+      "merchant_name": "EatSure",
+      "alias_key": "eatsure",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "EatSure"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html",
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_electrolux",
+      "merchant_name": "Electrolux",
+      "alias_key": "electrolux",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Electrolux"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_elektrokraft",
+      "merchant_name": "Elektrokraft",
+      "alias_key": "elektrokraft",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Elektrokraft"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_elivaas",
+      "merchant_name": "Elivaas",
+      "alias_key": "elivaas",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Elivaas"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_eureka",
+      "merchant_name": "Eureka",
+      "alias_key": "eureka",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Eureka"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_faasos",
+      "merchant_name": "Faasos",
+      "alias_key": "faasos",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Faasos"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html",
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_fab_rs_2000",
+      "merchant_name": "Fab India Rs. 2000",
+      "alias_key": "fab rs 2000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Fab India Rs. 2000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_fab_rs_500",
+      "merchant_name": "Fab India Rs. 500",
+      "alias_key": "fab rs 500",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Fab India Rs. 500"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_fab_rs_5000",
+      "merchant_name": "Fab India Rs. 5000",
+      "alias_key": "fab rs 5000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Fab India Rs. 5000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_faber",
+      "merchant_name": "Faber",
+      "alias_key": "faber",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Faber"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_faber_sportz_nutri_blender_400_watt_with_chopper",
+      "merchant_name": "Faber Sportz Nutri Blender 400 Watt with Chopper",
+      "alias_key": "faber sportz nutri blender 400 watt with chopper",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Faber Sportz Nutri Blender 400 Watt with Chopper"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_family_bazaar",
+      "merchant_name": "Family Bazaar",
+      "alias_key": "family bazaar",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Family Bazaar"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_fashion_factory",
+      "merchant_name": "Fashion Factory",
+      "alias_key": "fashion factory",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Fashion Factory"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_fastrack_reflex_rider_1_8_hd_display_with_built_alexa",
+      "merchant_name": "Fastrack Reflex Rider 1.8 HD Display With In Built Alexa",
+      "alias_key": "fastrack reflex rider 1 8 hd display with built alexa",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Fastrack Reflex Rider 1.8 HD Display With In Built Alexa"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_fingers_sound_glitz_burgundy_gold_wired_earphones",
+      "merchant_name": "Fingers Sound Glitz Burgundy + Gold Wired Earphones",
+      "alias_key": "fingers sound glitz burgundy gold wired earphones",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Fingers - Sound Glitz - Burgundy + Gold Wired Earphones"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_fiona_diamonds",
+      "merchant_name": "Fiona Diamonds",
+      "alias_key": "fiona diamonds",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Fiona Diamonds"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_fitbit_inspire_3_health_and_fitness_tracker",
+      "merchant_name": "Fitbit Inspire 3 Health and Fitness Tracker",
+      "alias_key": "fitbit inspire 3 health and fitness tracker",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Fitbit Inspire 3 Health and Fitness Tracker"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_fitpass",
+      "merchant_name": "FITPASS",
+      "alias_key": "fitpass",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "FITPASS"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_fitterfly",
+      "merchant_name": "FITTERFLY",
+      "alias_key": "fitterfly",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "FITTERFLY"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_flat",
+      "merchant_name": "Flat",
+      "alias_key": "flat",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Flat"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_flipkart",
+      "merchant_name": "Flipkart",
+      "alias_key": "flipkart",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Flipkart"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html",
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_four_fountain_spa",
+      "merchant_name": "Four Fountain Spa",
+      "alias_key": "four fountain spa",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Four Fountain Spa"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_frontier_jewellers",
+      "merchant_name": "Frontier Jewellers",
+      "alias_key": "frontier jewellers",
+      "merchant_category": "JEWELLERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Frontier Jewellers"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_funskool_activity_walker_99181",
+      "merchant_name": "Funskool Activity Walker 99181",
+      "alias_key": "funskool activity walker 99181",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Funskool Activity Walker 99181"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_funskool_alphy_elephant_96447",
+      "merchant_name": "Funskool Alphy Elephant 96447",
+      "alias_key": "funskool alphy elephant 96447",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Funskool Alphy Elephant 96447"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_funskool_complete_kitchen_set_97856",
+      "merchant_name": "Funskool Complete Kitchen Set 97856",
+      "alias_key": "funskool complete kitchen set 97856",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Funskool Complete Kitchen Set 97856"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_funskool_musical_snail_51057",
+      "merchant_name": "Funskool Musical Snail 51057",
+      "alias_key": "funskool musical snail 51057",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Funskool Musical Snail -51057"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_funskool_my_first_easel_99164",
+      "merchant_name": "FUNSKOOL MY FIRST EASEL 99164",
+      "alias_key": "funskool my first easel 99164",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "FUNSKOOL MY FIRST EASEL 99164"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_funskool_weaving_factory_42134",
+      "merchant_name": "FUNSKOOL WEAVING FACTORY 42134",
+      "alias_key": "funskool weaving factory 42134",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "FUNSKOOL WEAVING FACTORY 42134"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_future_world_inr_1000",
+      "merchant_name": "Future World Gift Voucher INR 1000",
+      "alias_key": "future world inr 1000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Future World Gift Voucher INR 1000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_gaana_plus",
+      "merchant_name": "Gaana Plus",
+      "alias_key": "gaana plus",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Gaana Plus"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_gap",
+      "merchant_name": "GAP",
+      "alias_key": "gap",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "GAP"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_get",
+      "merchant_name": "Get",
+      "alias_key": "get",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Get"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_girias",
+      "merchant_name": "Girias",
+      "alias_key": "girias",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Girias"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_giva",
+      "merchant_name": "GIVA",
+      "alias_key": "giva",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "GIVA"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_go_mobile",
+      "merchant_name": "Go Mobile",
+      "alias_key": "go mobile",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Go Mobile"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_godrej",
+      "merchant_name": "Godrej",
+      "alias_key": "godrej",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Godrej"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_godrej_interio",
+      "merchant_name": "Godrej Interio",
+      "alias_key": "godrej interio",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "godrej-interio"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_grab",
+      "merchant_name": "Grab",
+      "alias_key": "grab",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Grab"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_great_eastern_trading",
+      "merchant_name": "Great Eastern Trading",
+      "alias_key": "great eastern trading",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Great Eastern Trading"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_guru_mobile",
+      "merchant_name": "Guru Mobile",
+      "alias_key": "guru mobile",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Guru Mobile",
+        "Guru mobile"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_haier",
+      "merchant_name": "Haier",
+      "alias_key": "haier",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Haier"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_harissons_delta_39_l_polyester_black_15_6_inch_laptop_backpack",
+      "merchant_name": "Harissons Delta 39 L Polyester Black 15.6 Inch Laptop Backpack",
+      "alias_key": "harissons delta 39 l polyester black 15 6 inch laptop backpack",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Harissons Delta 39 L Polyester Black 15.6 Inch Laptop Backpack"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_havells_hs4211_ionic_and_keratin_hair_straightening_brush",
+      "merchant_name": "HAVELLS HS4211 Ionic and Keratin Hair Straightening Brush",
+      "alias_key": "havells hs4211 ionic and keratin hair straightening brush",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "HAVELLS HS4211 Ionic and Keratin Hair Straightening Brush"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_hdfc",
+      "merchant_name": "HDFC",
+      "alias_key": "hdfc",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "HDFC"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_hdfc_ergo",
+      "merchant_name": "HDFC Ergo",
+      "alias_key": "hdfc ergo",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "HDFC Ergo"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_hdfc_smartbuy",
+      "merchant_name": "HDFC SmartBuy",
+      "alias_key": "hdfc smartbuy",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "HDFC SmartBuy"
+      ],
+      "known_bank_partnerships": [
+        "HDFC Bank"
+      ],
+      "source_urls": [
+        "https://smartbuy.myimaginestore.com/terms-conditions"
+      ]
+    },
+    {
+      "merchant_id": "m_healthians",
+      "merchant_name": "Healthians",
+      "alias_key": "healthians",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Healthians"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_hero",
+      "merchant_name": "Hero",
+      "alias_key": "hero",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "hero"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_hilite_thrissur",
+      "merchant_name": "Hilite Thrissur",
+      "alias_key": "hilite thrissur",
+      "merchant_category": "RETAIL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "hilite-thrissur"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_homelane",
+      "merchant_name": "Homelane",
+      "alias_key": "homelane",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Homelane"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_hometown",
+      "merchant_name": "Hometown",
+      "alias_key": "hometown",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Hometown"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_honeywell_air_touch_p2_air_purifier_hc000021_ap_p2",
+      "merchant_name": "Honeywell Air Touch P2 Air Purifier (HC000021/AP/P2)",
+      "alias_key": "honeywell air touch p2 air purifier hc000021 ap p2",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Honeywell Air Touch P2 Air Purifier (HC000021/AP/P2)"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_hotspot",
+      "merchant_name": "Hotspot",
+      "alias_key": "hotspot",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Hotspot"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_housie_premium_72_cards",
+      "merchant_name": "Housie Premium 72 Cards",
+      "alias_key": "housie premium 72 cards",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Housie Premium 72 Cards"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_hp",
+      "merchant_name": "Hp",
+      "alias_key": "hp",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "HP",
+        "Hp"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_hp_pay",
+      "merchant_name": "HP Pay",
+      "alias_key": "hp pay",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "HP Pay"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_hunkemoller_inr_1000",
+      "merchant_name": "Hunkemoller Gift Voucher INR 1000",
+      "alias_key": "hunkemoller inr 1000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Hunkemoller Gift Voucher INR 1000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_hunkemoller_inr_2000",
+      "merchant_name": "Hunkemoller Gift Voucher INR 2000",
+      "alias_key": "hunkemoller inr 2000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Hunkemoller Gift Voucher INR 2000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_hunkemoller_inr_5000",
+      "merchant_name": "Hunkemoller Gift Voucher INR 5000",
+      "alias_key": "hunkemoller inr 5000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Hunkemoller Gift Voucher INR 5000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_hyatt_hotels_and_resorts",
+      "merchant_name": "Hyatt Hotels And Resorts",
+      "alias_key": "hyatt hotels and resorts",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Hyatt Hotels And Resorts"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_hypermart",
+      "merchant_name": "Hypermart",
+      "alias_key": "hypermart",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Hypermart"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_icici",
+      "merchant_name": "ICICI",
+      "alias_key": "icici",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "ICICI"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_icon_cancer_centre_and_icon_health_screening",
+      "merchant_name": "Icon Cancer Centre and Icon Health Screening",
+      "alias_key": "icon cancer centre and icon health screening",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Icon Cancer Centre and Icon Health Screening"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_ifb",
+      "merchant_name": "IFB",
+      "alias_key": "ifb",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "IFB"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_ifb_electronics",
+      "merchant_name": "IFB Electronics",
+      "alias_key": "ifb electronics",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "IFB Electronics"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_igp",
+      "merchant_name": "Igp",
+      "alias_key": "igp",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Igp"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_ikea",
+      "merchant_name": "Ikea",
+      "alias_key": "ikea",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Ikea"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_indigo_bar_and_kitchen",
+      "merchant_name": "Indigo Indian Bar And Kitchen",
+      "alias_key": "indigo bar and kitchen",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Indigo - Indian Bar and Kitchen"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_infinumgrowth",
+      "merchant_name": "InfinumGrowth",
+      "alias_key": "infinumgrowth",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "InfinumGrowth"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_initiative",
+      "merchant_name": "Initiative",
+      "alias_key": "initiative",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Initiative"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_initiative_data_systems",
+      "merchant_name": "Initiative Data Systems",
+      "alias_key": "initiative data systems",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Initiative-Data-Systems"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_interflora",
+      "merchant_name": "Interflora",
+      "alias_key": "interflora",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Interflora"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_intrcity",
+      "merchant_name": "Intrcity",
+      "alias_key": "intrcity",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "intrcity"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_ira_hotel",
+      "merchant_name": "Ira Hotel",
+      "alias_key": "ira hotel",
+      "merchant_category": "TRAVEL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "ira-hotel"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_irctc",
+      "merchant_name": "IRCTC",
+      "alias_key": "irctc",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "IRCTC"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_itc_hotels",
+      "merchant_name": "ITC Hotels",
+      "alias_key": "itc hotels",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "ITC Hotels"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_jalaans",
+      "merchant_name": "Jalaans",
+      "alias_key": "jalaans",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Jalaans"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_jalans",
+      "merchant_name": "Jalans",
+      "alias_key": "jalans",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Jalans"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_jbl",
+      "merchant_name": "JBL",
+      "alias_key": "jbl",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "JBL"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_jockey",
+      "merchant_name": "Jockey",
+      "alias_key": "jockey",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Jockey"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_kalamandir",
+      "merchant_name": "Kalamandir",
+      "alias_key": "kalamandir",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Kalamandir"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_kbm_electronic",
+      "merchant_name": "KBM Electronic",
+      "alias_key": "kbm electronic",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "KBM Electronic"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_kent_hot_pot_multi_functional_16119",
+      "merchant_name": "Kent Hot Pot Multi Functional 16119",
+      "alias_key": "kent hot pot multi functional 16119",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Kent Hot Pot Multi-Functional 16119"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_khosla_electronics",
+      "merchant_name": "Khosla Electronics",
+      "alias_key": "khosla electronics",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Khosla Electronics"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_kids_magnetic_pencil_box",
+      "merchant_name": "Kids Magnetic Pencil Box",
+      "alias_key": "kids magnetic pencil box",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Kids Magnetic Pencil Box"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_kitchen_suitcase_play_set_disney_characters_mix",
+      "merchant_name": "Kitchen Suitcase Play Set (Disney Characters mix)",
+      "alias_key": "kitchen suitcase play set disney characters mix",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Kitchen Suitcase Play Set (Disney Characters mix)"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_klook",
+      "merchant_name": "Klook",
+      "alias_key": "klook",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Klook"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_knesha",
+      "merchant_name": "Knesha",
+      "alias_key": "knesha",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "knesha"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_kore_mobiles",
+      "merchant_name": "KORE mobiles",
+      "alias_key": "kore mobiles",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "KORE mobiles"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_kozhikode_hilite",
+      "merchant_name": "Kozhikode Hilite",
+      "alias_key": "kozhikode hilite",
+      "merchant_category": "RETAIL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "kozhikode-hilite"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_laforte_1000ml_copper_water_bottle_with_leak_proof_lid",
+      "merchant_name": "LAFORTE 1000ml Copper Water Bottle with Leak Proof Lid",
+      "alias_key": "laforte 1000ml copper water bottle with leak proof lid",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "LAFORTE 1000ml Copper Water Bottle with Leak Proof Lid"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_laforte_leak_proof_1000ml_lunch_box",
+      "merchant_name": "LAFORTE Leak Proof 1000ml Lunch Box",
+      "alias_key": "laforte leak proof 1000ml lunch box",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "LAFORTE Leak Proof 1000ml Lunch Box"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_lamy_saffari_fountain_pen",
+      "merchant_name": "Lamy Saffari Fountain Pen",
+      "alias_key": "lamy saffari fountain pen",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Lamy Saffari Fountain Pen"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_lenskart",
+      "merchant_name": "Lenskart",
+      "alias_key": "lenskart",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "LENSKART",
+        "Lenskart"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html",
+        "https://www.gyftr.com/sbicard",
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_lg",
+      "merchant_name": "Lg",
+      "alias_key": "lg",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "LG",
+        "Lg"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_licious",
+      "merchant_name": "Licious",
+      "alias_key": "licious",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Licious"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_lifelong_llm09_mini_head_and_body_massager",
+      "merchant_name": "Lifelong LLM09 Mini Head and Body Massager",
+      "alias_key": "lifelong llm09 mini head and body massager",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Lifelong LLM09 Mini Head and Body Massager"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_lifestyle",
+      "merchant_name": "Lifestyle",
+      "alias_key": "lifestyle",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Lifestyle"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard",
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_lloyd",
+      "merchant_name": "Lloyd",
+      "alias_key": "lloyd",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Lloyd"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_logitech_h111_stereo_headset",
+      "merchant_name": "Logitech H111 Stereo Headset",
+      "alias_key": "logitech h111 stereo headset",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Logitech H111 Stereo Headset"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_lot",
+      "merchant_name": "Lot",
+      "alias_key": "lot",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "lot"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_luzo",
+      "merchant_name": "Luzo",
+      "alias_key": "luzo",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Luzo"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_m_bazaar",
+      "merchant_name": "m bazaar",
+      "alias_key": "m bazaar",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "m bazaar"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_magnetic_dart_board",
+      "merchant_name": "Magnetic Dart Board",
+      "alias_key": "magnetic dart board",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Magnetic Dart Board"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_maharashtra",
+      "merchant_name": "Maharashtra",
+      "alias_key": "maharashtra",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Maharashtra"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_mahindra",
+      "merchant_name": "Mahindra",
+      "alias_key": "mahindra",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "mahindra"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_makemytrip_e_pay",
+      "merchant_name": "MakeMyTrip E Pay",
+      "alias_key": "makemytrip e pay",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "MakeMyTrip e-Pay"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_makemytrip_holiday_e_pay",
+      "merchant_name": "MakeMyTrip Holiday E Pay",
+      "alias_key": "makemytrip holiday e pay",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "MakeMyTrip Holiday e-Pay"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_makemytrip_hotel_e_pay",
+      "merchant_name": "MakeMyTrip Hotel E Pay",
+      "alias_key": "makemytrip hotel e pay",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "MakeMyTrip Hotel e-Pay"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_malabar_diamonds",
+      "merchant_name": "Malabar Diamonds",
+      "alias_key": "malabar diamonds",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Malabar Diamonds"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_malabar_gold",
+      "merchant_name": "Malabar Gold",
+      "alias_key": "malabar gold",
+      "merchant_category": "JEWELLERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Malabar Gold"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_mall_travancore",
+      "merchant_name": "Mall Travancore",
+      "alias_key": "mall travancore",
+      "merchant_category": "RETAIL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "mall-travancore"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_mango",
+      "merchant_name": "Mango",
+      "alias_key": "mango",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Mango"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_manoj_mobile",
+      "merchant_name": "manoj mobile",
+      "alias_key": "manoj mobile",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "manoj mobile"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_marcas_multipurpose_gypsy_leather_and_canvas_toiletry_kit_9040",
+      "merchant_name": "Marcas Multipurpose Gypsy Leather and Canvas Toiletry Kit 9040",
+      "alias_key": "marcas multipurpose gypsy leather and canvas toiletry kit 9040",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Marcas Multipurpose Gypsy Leather and Canvas Toiletry Kit 9040"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_marks_spencer",
+      "merchant_name": "Marks & Spencer",
+      "alias_key": "marks spencer",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Marks & Spencer"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_max_fashion",
+      "merchant_name": "Max Fashion",
+      "alias_key": "max fashion",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Max Fashion"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_maz_fashion",
+      "merchant_name": "maz fashion",
+      "alias_key": "maz fashion",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "maz fashion"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_medibuddy",
+      "merchant_name": "MediBuddy",
+      "alias_key": "medibuddy",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "MediBuddy"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_medibuddy_new",
+      "merchant_name": "medibuddy new",
+      "alias_key": "medibuddy new",
+      "merchant_category": "HEALTH",
+      "merchant_subcategory": null,
+      "aliases": [
+        "medibuddy new"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_mia_by_tanishq",
+      "merchant_name": "Mia by Tanishq",
+      "alias_key": "mia by tanishq",
+      "merchant_category": "JEWELLERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Mia by Tanishq"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_micelo_martin_sunglasses_mm1001c5",
+      "merchant_name": "Micelo Martin Sunglasses MM1001C5",
+      "alias_key": "micelo martin sunglasses mm1001c5",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Micelo Martin Sunglasses - MM1001C5"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_milkbasket",
+      "merchant_name": "Milkbasket",
+      "alias_key": "milkbasket",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Milkbasket"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_mitsubishi",
+      "merchant_name": "Mitsubishi",
+      "alias_key": "mitsubishi",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Mitsubishi"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_mokobara",
+      "merchant_name": "Mokobara",
+      "alias_key": "mokobara",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Mokobara"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_monte_carlo",
+      "merchant_name": "monte carlo",
+      "alias_key": "monte carlo",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "monte carlo"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_morphy_richards_29rcad_digital_otg_with_air_fryer",
+      "merchant_name": "morphy richards 29RCAD Digital OTG with Air Fryer",
+      "alias_key": "morphy richards 29rcad digital otg with air fryer",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "morphy richards 29RCAD Digital OTG with Air Fryer"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_morphy_richards_2_1_blendmaster_400w_juicer_mixer_grinder",
+      "merchant_name": "Morphy Richards 2 In 1 Blendmaster 400W Juicer Mixer Grinder",
+      "alias_key": "morphy richards 2 1 blendmaster 400w juicer mixer grinder",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Morphy Richards 2 In 1 Blendmaster 400W Juicer Mixer Grinder"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_morphy_richards_kenzo_slow_cold_press_juicer_150w",
+      "merchant_name": "morphy richards Kenzo Slow Cold Press Juicer 150W",
+      "alias_key": "morphy richards kenzo slow cold press juicer 150w",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "morphy richards Kenzo Slow Cold Press Juicer 150W"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_morphy_richards_kingsman_pro_bg3509_12_1_body_groomer",
+      "merchant_name": "Morphy Richards Kingsman Pro BG3509 12 In 1 Body Groomer",
+      "alias_key": "morphy richards kingsman pro bg3509 12 1 body groomer",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "morphy richards Kingsman Pro BG3509 12-in-1 Body Groomer"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_morphy_richards_mini_300_watts_dc_motor_chopper",
+      "merchant_name": "Morphy Richards MINI 300 Watts DC Motor Chopper",
+      "alias_key": "morphy richards mini 300 watts dc motor chopper",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "morphy richards MINI 300-Watts DC Motor Chopper"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_motherland_2_fold_umbrella_black",
+      "merchant_name": "Motherland 2 fold Umbrella Black",
+      "alias_key": "motherland 2 fold umbrella black",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Motherland 2 fold Umbrella Black"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_motorola",
+      "merchant_name": "Motorola",
+      "alias_key": "motorola",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Motorola"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_mundada",
+      "merchant_name": "Mundada",
+      "alias_key": "mundada",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "mundada"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_musafir",
+      "merchant_name": "Musafir",
+      "alias_key": "musafir",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Musafir"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_myg",
+      "merchant_name": "MyG",
+      "alias_key": "myg",
+      "merchant_category": "RETAIL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "MyG"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_myntra",
+      "merchant_name": "Myntra",
+      "alias_key": "myntra",
+      "merchant_category": "ECOMMERCE",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Myntra"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html",
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_neelkanth",
+      "merchant_name": "Neelkanth",
+      "alias_key": "neelkanth",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Neelkanth"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_nestasia",
+      "merchant_name": "Nestasia",
+      "alias_key": "nestasia",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nestasia"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_netmeds",
+      "merchant_name": "Netmeds",
+      "alias_key": "netmeds",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Netmeds"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_netmeds_rs_500",
+      "merchant_name": "Netmeds Rs. 500",
+      "alias_key": "netmeds rs 500",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Netmeds Rs. 500"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_noise_air_buds_mini",
+      "merchant_name": "Noise Air Buds Mini",
+      "alias_key": "noise air buds mini",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Noise Air Buds Mini"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_noise_air_buds_mini_tws_earbuds",
+      "merchant_name": "Noise Air Buds Mini TWS Earbuds",
+      "alias_key": "noise air buds mini tws earbuds",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Noise Air Buds Mini TWS Earbuds"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_noise_buds_vs102_truly_wireless_bluetooth_headset",
+      "merchant_name": "Noise Buds VS102 Truly Wireless Bluetooth Headset",
+      "alias_key": "noise buds vs102 truly wireless bluetooth headset",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Noise Buds VS102 Truly Wireless Bluetooth Headset"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_nokia",
+      "merchant_name": "Nokia",
+      "alias_key": "nokia",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nokia"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_nothing",
+      "merchant_name": "Nothing",
+      "alias_key": "nothing",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nothing"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_nu_mobile",
+      "merchant_name": "Nu Mobile",
+      "alias_key": "nu mobile",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "nu-mobile"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_nykaa",
+      "merchant_name": "Nykaa",
+      "alias_key": "nykaa",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nykaa"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard",
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_nykaa_fashion_inr_1000",
+      "merchant_name": "Nykaa Fashion Gift Voucher INR 1000",
+      "alias_key": "nykaa fashion inr 1000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nykaa Fashion Gift Voucher INR 1000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_nykaa_fashion_inr_500",
+      "merchant_name": "Nykaa Fashion Gift Voucher INR 500",
+      "alias_key": "nykaa fashion inr 500",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nykaa Fashion Gift Voucher INR 500"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_nykaa_inr_1000",
+      "merchant_name": "Nykaa Gift Voucher INR 1000",
+      "alias_key": "nykaa inr 1000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nykaa Gift Voucher INR 1000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_nykaa_inr_500",
+      "merchant_name": "Nykaa Gift Voucher INR 500",
+      "alias_key": "nykaa inr 500",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nykaa Gift Voucher INR 500"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_nykaa_man_inr_1000",
+      "merchant_name": "Nykaa Man Gift Voucher INR 1000",
+      "alias_key": "nykaa man inr 1000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nykaa Man Gift Voucher INR 1000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_nykaa_man_inr_500",
+      "merchant_name": "Nykaa Man Gift Voucher INR 500",
+      "alias_key": "nykaa man inr 500",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Nykaa Man Gift Voucher INR 500"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_octave",
+      "merchant_name": "Octave",
+      "alias_key": "octave",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "octave"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_ola",
+      "merchant_name": "Ola",
+      "alias_key": "ola",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Ola"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_ola_cabs",
+      "merchant_name": "OLA CABS",
+      "alias_key": "ola cabs",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "OLA CABS"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_oneplus",
+      "merchant_name": "Oneplus",
+      "alias_key": "oneplus",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Oneplus"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_oppo",
+      "merchant_name": "Oppo",
+      "alias_key": "oppo",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Oppo"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_oppo_green",
+      "merchant_name": "Oppo Green",
+      "alias_key": "oppo green",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Oppo-green"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_orchid_hotel",
+      "merchant_name": "Orchid Hotel",
+      "alias_key": "orchid hotel",
+      "merchant_category": "TRAVEL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "orchid-hotel"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_pai_international",
+      "merchant_name": "Pai International",
+      "alias_key": "pai international",
+      "merchant_category": "RETAIL",
+      "merchant_subcategory": null,
+      "aliases": [
+        "pai-international"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_panasonic",
+      "merchant_name": "Panasonic",
+      "alias_key": "panasonic",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Panasonic",
+        "panasonic"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_pantaloons",
+      "merchant_name": "PANTALOONS",
+      "alias_key": "pantaloons",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "PANTALOONS"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard",
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_peacock_sb_castle_set_junior_2120",
+      "merchant_name": "Peacock SB Castle Set Junior 2120",
+      "alias_key": "peacock sb castle set junior 2120",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Peacock SB Castle Set Junior - 2120"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_peacock_sb_my_first_architect_110",
+      "merchant_name": "Peacock SB My First Architect 110",
+      "alias_key": "peacock sb my first architect 110",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Peacock SB My First Architect - 110"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_peperone_adalyn_handbag_7005",
+      "merchant_name": "Peperone Adalyn Handbag 7005",
+      "alias_key": "peperone adalyn handbag 7005",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Peperone Adalyn Handbag 7005"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_peperone_como_handbag_7084",
+      "merchant_name": "Peperone Como Handbag 7084",
+      "alias_key": "peperone como handbag 7084",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Peperone Como Handbag 7084"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_peperone_marcas_amos_leather_laptop_bag_9036",
+      "merchant_name": "Peperone Marcas Amos Leather Laptop Bag 9036",
+      "alias_key": "peperone marcas amos leather laptop bag 9036",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Peperone Marcas Amos Leather Laptop Bag 9036"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_philips",
+      "merchant_name": "Philips",
+      "alias_key": "philips",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Philips"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_philips_bt1235_15_usb_cordless_beard_trimmer_for_men",
+      "merchant_name": "PHILIPS BT1235/15 USB Cordless Beard Trimmer for Men",
+      "alias_key": "philips bt1235 15 usb cordless beard trimmer for men",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "PHILIPS BT1235/15 USB Cordless Beard Trimmer for Men"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_philips_bt3302_15_battery_powered_trimmer",
+      "merchant_name": "PHILIPS BT3302/15 Battery Powered Trimmer",
+      "alias_key": "philips bt3302 15 battery powered trimmer",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "PHILIPS BT3302/15 Battery Powered Trimmer"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_philips_cosmos_5w_rechargeable_table_lamp_with_pen_stand",
+      "merchant_name": "Philips Cosmos 5W Rechargeable Table Lamp with Pen Stand",
+      "alias_key": "philips cosmos 5w rechargeable table lamp with pen stand",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Philips Cosmos 5W Rechargeable Table Lamp with Pen Stand"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_philips_tesni_5w_rechargeable_emergency_light",
+      "merchant_name": "Philips Tesni 5W Rechargeable Emergency Light",
+      "alias_key": "philips tesni 5w rechargeable emergency light",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Philips Tesni 5W Rechargeable Emergency Light"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_pillows",
+      "merchant_name": "Pillows",
+      "alias_key": "pillows",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Pillows"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_pittappillil",
+      "merchant_name": "Pittappillil",
+      "alias_key": "pittappillil",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Pittappillil"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_points_for_good_rs_1000",
+      "merchant_name": "Points for Good RS.1000",
+      "alias_key": "points for good rs 1000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Points for Good RS.1000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_points_for_good_rs_500",
+      "merchant_name": "Points for Good RS.500",
+      "alias_key": "points for good rs 500",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Points for Good RS.500"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_portronics_luxcell_magclick_10k_15w_10000mah_wireless_power_bank",
+      "merchant_name": "PORTRONICS Luxcell MagClick 10K 15W 10000mAh Wireless Power Bank",
+      "alias_key": "portronics luxcell magclick 10k 15w 10000mah wireless power bank",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "PORTRONICS Luxcell MagClick 10K 15W 10000mAh Wireless Power Bank"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_portronics_mport_31c_4_1_usb_hub_type_c_to_4_usb_a_ports",
+      "merchant_name": "PORTRONICS MPORT 31C 4 IN 1 USB HUB (TYPE C TO 4 USB A PORTS)",
+      "alias_key": "portronics mport 31c 4 1 usb hub type c to 4 usb a ports",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "PORTRONICS MPORT 31C 4-IN-1 USB HUB (TYPE C TO 4 USB-A PORTS)"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_portronics_my_buddy_plus_laptop_stand",
+      "merchant_name": "Portronics My Buddy Plus Laptop Stand",
+      "alias_key": "portronics my buddy plus laptop stand",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Portronics My Buddy Plus Laptop Stand"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_portronics_ruffpad_8_5m",
+      "merchant_name": "Portronics Ruffpad 8.5M",
+      "alias_key": "portronics ruffpad 8 5m",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Portronics Ruffpad 8.5M"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_portronics_ruffpad_calc_mini",
+      "merchant_name": "Portronics Ruffpad Calc Mini",
+      "alias_key": "portronics ruffpad calc mini",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Portronics Ruffpad Calc Mini"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_pronto",
+      "merchant_name": "Pronto",
+      "alias_key": "pronto",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Pronto"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_punjab_cloth",
+      "merchant_name": "Punjab Cloth",
+      "alias_key": "punjab cloth",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Punjab Cloth"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_pvr_inox",
+      "merchant_name": "PVR INOX",
+      "alias_key": "pvr inox",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "PVR INOX"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_qatar_airways",
+      "merchant_name": "Qatar Airways",
+      "alias_key": "qatar airways",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Qatar Airways"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_qubo_wf_hhf01_go_audio_sunglasses",
+      "merchant_name": "Qubo WF HHF01 Go Audio Sunglasses",
+      "alias_key": "qubo wf hhf01 go audio sunglasses",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Qubo WF-HHF01 Go Audio Sunglasses"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_raymonds_national",
+      "merchant_name": "Raymonds National",
+      "alias_key": "raymonds national",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Raymonds National"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_raymonds_regional",
+      "merchant_name": "raymonds regional",
+      "alias_key": "raymonds regional",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "raymonds regional"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_razorpay",
+      "merchant_name": "RAZORPAY",
+      "alias_key": "razorpay",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "RAZORPAY"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_rb_zone",
+      "merchant_name": "Rb Zone",
+      "alias_key": "rb zone",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "rb-zone"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_rbl",
+      "merchant_name": "RBL",
+      "alias_key": "rbl",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "RBL"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_realme",
+      "merchant_name": "Realme",
+      "alias_key": "realme",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Realme"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_reliance_digital",
+      "merchant_name": "Reliance Digital",
+      "alias_key": "reliance digital",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Reliance Digital"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_reliance_jewels",
+      "merchant_name": "Reliance Jewels",
+      "alias_key": "reliance jewels",
+      "merchant_category": "JEWELLERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Reliance Jewels"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_reliance_smart",
+      "merchant_name": "Reliance Smart",
+      "alias_key": "reliance smart",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Reliance Smart"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_reliance_trends",
+      "merchant_name": "Reliance Trends",
+      "alias_key": "reliance trends",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Reliance Trends"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_sahu",
+      "merchant_name": "Sahu",
+      "alias_key": "sahu",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Sahu"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_sahu_agencies",
+      "merchant_name": "Sahu Agencies",
+      "alias_key": "sahu agencies",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Sahu Agencies"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_samsung",
+      "merchant_name": "Samsung",
+      "alias_key": "samsung",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Samsung"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_samsung_cd",
+      "merchant_name": "Samsung CD",
+      "alias_key": "samsung cd",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Samsung CD"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_samsung_wallet_tap_go_rewards",
+      "merchant_name": "Samsung Wallet – Tap & Go Rewards",
+      "alias_key": "samsung wallet tap go rewards",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Samsung Wallet – Tap & Go Rewards"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.bankbazaar.com/mastercard-credit-card-offers.html"
+      ]
+    },
+    {
+      "merchant_id": "m_saregama_carvaan_mini_2_0_music_player_telugu",
+      "merchant_name": "Saregama Carvaan Mini 2.0 Music Player Telugu",
+      "alias_key": "saregama carvaan mini 2 0 music player telugu",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Saregama Carvaan Mini 2.0 Music Player Telugu"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_sathya_agencies",
+      "merchant_name": "Sathya Agencies",
+      "alias_key": "sathya agencies",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Sathya Agencies"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_save",
+      "merchant_name": "Save",
+      "alias_key": "save",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Save"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_sbi",
+      "merchant_name": "SBI",
+      "alias_key": "sbi",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "SBI"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_sbi_life",
+      "merchant_name": "SBI Life",
+      "alias_key": "sbi life",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "SBI Life"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_shubhamk",
+      "merchant_name": "Shubhamk",
+      "alias_key": "shubhamk",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Shubhamk"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_signoraware_hammered_bottle_with_4_glasses_2459",
+      "merchant_name": "Signoraware Hammered Bottle (With 4 Glasses) 2459",
+      "alias_key": "signoraware hammered bottle with 4 glasses 2459",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Signoraware Hammered Bottle (With 4 Glasses) - 2459"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_signoraware_kids_compact_lunchbox_small",
+      "merchant_name": "SignoraWare Kids Compact Lunchbox Small",
+      "alias_key": "signoraware kids compact lunchbox small",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "SignoraWare Kids Compact Lunchbox Small"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_sitewide",
+      "merchant_name": "Sitewide",
+      "alias_key": "sitewide",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Sitewide"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_sivmor_gadgets",
+      "merchant_name": "Sivmor gadgets",
+      "alias_key": "sivmor gadgets",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Sivmor gadgets"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_skechers",
+      "merchant_name": "Skechers",
+      "alias_key": "skechers",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Skechers"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_skinn_amalfi_bleu_90ml_perfume",
+      "merchant_name": "Skinn Amalfi Bleu 90ML perfume",
+      "alias_key": "skinn amalfi bleu 90ml perfume",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Skinn Amalfi Bleu 90ML perfume"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_smart_bazaar",
+      "merchant_name": "Smart Bazaar",
+      "alias_key": "smart bazaar",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Smart Bazaar"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_smartivity_infinity_calendar_organiser",
+      "merchant_name": "Smartivity Infinity Calendar Organiser",
+      "alias_key": "smartivity infinity calendar organiser",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Smartivity Infinity Calendar Organiser"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_smile",
+      "merchant_name": "Smile Store",
+      "alias_key": "smile",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Smile Store"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_soch",
+      "merchant_name": "Soch",
+      "alias_key": "soch",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Soch"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_sony",
+      "merchant_name": "Sony",
+      "alias_key": "sony",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Sony"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_soulflower",
+      "merchant_name": "Soulflower",
+      "alias_key": "soulflower",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Soulflower"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_spencer_s_retail",
+      "merchant_name": "Spencer's Retail",
+      "alias_key": "spencer s retail",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Spencer's Retail"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_state",
+      "merchant_name": "State",
+      "alias_key": "state",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "State"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.grabon.in/sbi-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_stationary_pouch_set",
+      "merchant_name": "Stationary Pouch Set",
+      "alias_key": "stationary pouch set",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Stationary Pouch Set"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_style_bazaar",
+      "merchant_name": "Style Bazaar",
+      "alias_key": "style bazaar",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Style Bazaar"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_taj_experiences",
+      "merchant_name": "Taj Experiences",
+      "alias_key": "taj experiences",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Taj Experiences"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard",
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_taj_experiences_inr_3000",
+      "merchant_name": "Taj Experiences Gift Voucher INR 3000",
+      "alias_key": "taj experiences inr 3000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Taj Experiences Gift Voucher INR 3000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_taori",
+      "merchant_name": "Taori",
+      "alias_key": "taori",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "taori"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_tata_cliq",
+      "merchant_name": "TATA CLiQ",
+      "alias_key": "tata cliq",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "TATA CLiQ"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_tcl",
+      "merchant_name": "TCL",
+      "alias_key": "tcl",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "TCL"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_the_man_company",
+      "merchant_name": "The Man Company",
+      "alias_key": "the man company",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "The Man Company"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_the_raymond",
+      "merchant_name": "The Raymond Shop",
+      "alias_key": "the raymond",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "The Raymond Shop"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_titan",
+      "merchant_name": "Titan",
+      "alias_key": "titan",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Titan"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_toothsi",
+      "merchant_name": "Toothsi",
+      "alias_key": "toothsi",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Toothsi"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_top_town",
+      "merchant_name": "Top in town",
+      "alias_key": "top town",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Top in town"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_trends",
+      "merchant_name": "Trends",
+      "alias_key": "trends",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Trends"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_tv_palace",
+      "merchant_name": "TV Palace",
+      "alias_key": "tv palace",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "TV Palace"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_tvs",
+      "merchant_name": "Tvs",
+      "alias_key": "tvs",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "TVS",
+        "tvs"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_tzaro_burgundy_colored_genuine_leather_belt_iqzprlthblt042",
+      "merchant_name": "TZARO Burgundy Colored Genuine Leather Belt IQZPRLTHBLT042",
+      "alias_key": "tzaro burgundy colored genuine leather belt iqzprlthblt042",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "TZARO Burgundy Colored Genuine Leather Belt - IQZPRLTHBLT042"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_uber",
+      "merchant_name": "UBER",
+      "alias_key": "uber",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "UBER"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_uber_rs_1000",
+      "merchant_name": "UBER Rs. 1000",
+      "alias_key": "uber rs 1000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "UBER Rs. 1000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_uber_rs_500",
+      "merchant_name": "UBER Rs. 500",
+      "alias_key": "uber rs 500",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "UBER Rs. 500"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_uppercase_matrix_laptop_backpack_antitheft_zipers",
+      "merchant_name": "Uppercase Matrix Laptop Backpack AntiTheft Zipers",
+      "alias_key": "uppercase matrix laptop backpack antitheft zipers",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Uppercase Matrix Laptop Backpack -AntiTheft Zipers"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_urban_buy",
+      "merchant_name": "Urban Buy",
+      "alias_key": "urban buy",
+      "merchant_category": "GROCERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Urban Buy"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_urban_ladder",
+      "merchant_name": "Urban Ladder",
+      "alias_key": "urban ladder",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Urban Ladder"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_usha_electronics",
+      "merchant_name": "Usha Electronics",
+      "alias_key": "usha electronics",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "usha-electronics"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_utkalika",
+      "merchant_name": "Utkalika",
+      "alias_key": "utkalika",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Utkalika"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_valentino",
+      "merchant_name": "Valentino",
+      "alias_key": "valentino",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "valentino"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_value_plus",
+      "merchant_name": "Value Plus",
+      "alias_key": "value plus",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Value Plus"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_verma_jewellers",
+      "merchant_name": "verma jewellers",
+      "alias_key": "verma jewellers",
+      "merchant_category": "JEWELLERY",
+      "merchant_subcategory": null,
+      "aliases": [
+        "verma jewellers"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_victoria_s_secret",
+      "merchant_name": "VICTORIA'S SECRET",
+      "alias_key": "victoria s secret",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "VICTORIA'S SECRET"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_vijay_sales",
+      "merchant_name": "Vijay Sales",
+      "alias_key": "vijay sales",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Vijay Sales"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/edgerewards"
+      ]
+    },
+    {
+      "merchant_id": "m_virat",
+      "merchant_name": "Virat",
+      "alias_key": "virat",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "virat"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_vivo",
+      "merchant_name": "Vivo",
+      "alias_key": "vivo",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Vivo",
+        "vivo"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_vlcc",
+      "merchant_name": "VLCC",
+      "alias_key": "vlcc",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "VLCC"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_voltas",
+      "merchant_name": "Voltas",
+      "alias_key": "voltas",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Voltas"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_welspun_classic_double_bed_dohar",
+      "merchant_name": "Welspun Classic Double Bed Dohar",
+      "alias_key": "welspun classic double bed dohar",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Welspun Classic Double Bed Dohar"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_welspun_neo_soft_double_bedsheet_set",
+      "merchant_name": "Welspun Neo Soft Double Bedsheet Set",
+      "alias_key": "welspun neo soft double bedsheet set",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Welspun Neo Soft Double Bedsheet Set"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_wendy_s",
+      "merchant_name": "Wendy’s",
+      "alias_key": "wendy s",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Wendy’s"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_westside_inr_1000",
+      "merchant_name": "Westside Gift Voucher INR 1000",
+      "alias_key": "westside inr 1000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Westside Gift Voucher INR 1000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_westside_inr_2000",
+      "merchant_name": "Westside Gift Voucher INR 2000",
+      "alias_key": "westside inr 2000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Westside Gift Voucher INR 2000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_whirlpool",
+      "merchant_name": "Whirlpool",
+      "alias_key": "whirlpool",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Whirlpool"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/html/personal/offers/festive/festive-offers/index-page.html"
+      ]
+    },
+    {
+      "merchant_id": "m_white_crow_inr_1000",
+      "merchant_name": "White Crow Gift Voucher INR 1000",
+      "alias_key": "white crow inr 1000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "White Crow Gift Voucher INR 1000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_white_crow_inr_10000",
+      "merchant_name": "White Crow Gift Voucher INR 10000",
+      "alias_key": "white crow inr 10000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "White Crow Gift Voucher INR 10000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_white_crow_inr_2000",
+      "merchant_name": "White Crow Gift Voucher INR 2000",
+      "alias_key": "white crow inr 2000",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "White Crow Gift Voucher INR 2000"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_wildcraft_laptop_sleeve_corp",
+      "merchant_name": "Wildcraft Laptop Sleeve Corp",
+      "alias_key": "wildcraft laptop sleeve corp",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Wildcraft Laptop Sleeve Corp"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_wildcraft_wiki_micro_sling_bag_for_girl",
+      "merchant_name": "WILDCRAFT Wiki Micro Sling Bag for Girl",
+      "alias_key": "wildcraft wiki micro sling bag for girl",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "WILDCRAFT Wiki Micro Sling Bag for Girl"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_wildcrat_rover_2_duffel_bag",
+      "merchant_name": "WILDCRAT ROVER 2 DUFFEL BAG",
+      "alias_key": "wildcrat rover 2 duffel bag",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "WILDCRAT ROVER 2 DUFFEL BAG"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_winners_ornate_globe_1010",
+      "merchant_name": "Winners Ornate Globe 1010",
+      "alias_key": "winners ornate globe 1010",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Winners Ornate Globe 1010"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_wooden_street",
+      "merchant_name": "wooden street",
+      "alias_key": "wooden street",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "wooden street"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_wow_skin_science",
+      "merchant_name": "WOW Skin Science",
+      "alias_key": "wow skin science",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "WOW Skin Science"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_xech_digi_fold_calculator",
+      "merchant_name": "Xech Digi Fold Calculator",
+      "alias_key": "xech digi fold calculator",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Xech Digi fold - Calculator"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_xiaomi",
+      "merchant_name": "Xiaomi",
+      "alias_key": "xiaomi",
+      "merchant_category": "ELECTRONICS",
+      "merchant_subcategory": null,
+      "aliases": [
+        "Xiaomi"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_xiaomi_electric_toothbrush_t100",
+      "merchant_name": "Xiaomi Electric Toothbrush T100",
+      "alias_key": "xiaomi electric toothbrush t100",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Xiaomi Electric Toothbrush T100"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    },
+    {
+      "merchant_id": "m_xtraa",
+      "merchant_name": "Xtraa",
+      "alias_key": "xtraa",
+      "merchant_category": "FASHION",
+      "merchant_subcategory": null,
+      "aliases": [
+        "xtraa"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.sbicard.com/en/personal/offers.page"
+      ]
+    },
+    {
+      "merchant_id": "m_yatra",
+      "merchant_name": "Yatra",
+      "alias_key": "yatra",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Yatra"
+      ],
+      "known_bank_partnerships": [],
+      "source_urls": [
+        "https://www.paisabazaar.com/credit-card/visa-credit-card-offers/"
+      ]
+    },
+    {
+      "merchant_id": "m_zee5",
+      "merchant_name": "Zee5",
+      "alias_key": "zee5",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Zee5"
+      ],
+      "known_bank_partnerships": [
+        "SBI Card"
+      ],
+      "source_urls": [
+        "https://www.gyftr.com/sbicard"
+      ]
+    },
+    {
+      "merchant_id": "m_zephyr_metal_mechanix_motor_bikes",
+      "merchant_name": "Zephyr Metal Mechanix Motor Bikes",
+      "alias_key": "zephyr metal mechanix motor bikes",
+      "merchant_category": null,
+      "merchant_subcategory": null,
+      "aliases": [
+        "Zephyr Metal Mechanix Motor Bikes"
+      ],
+      "known_bank_partnerships": [
+        "Axis Bank"
+      ],
+      "source_urls": [
+        "https://edgerewards.axis.bank.in/lms/"
+      ]
+    }
+  ],
+  "partnership_gaps": [
+    {
+      "merchant_id": "m_amazon",
+      "merchant_name": "Amazon",
+      "known_partners": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "unresearched_issuers": [
+        "HDFC Bank"
+      ]
+    },
+    {
+      "merchant_id": "m_lenskart",
+      "merchant_name": "Lenskart",
+      "known_partners": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "unresearched_issuers": [
+        "HDFC Bank"
+      ]
+    },
+    {
+      "merchant_id": "m_myntra",
+      "merchant_name": "Myntra",
+      "known_partners": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "unresearched_issuers": [
+        "HDFC Bank"
+      ]
+    },
+    {
+      "merchant_id": "m_lifestyle",
+      "merchant_name": "Lifestyle",
+      "known_partners": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "unresearched_issuers": [
+        "HDFC Bank"
+      ]
+    },
+    {
+      "merchant_id": "m_pantaloons",
+      "merchant_name": "PANTALOONS",
+      "known_partners": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "unresearched_issuers": [
+        "HDFC Bank"
+      ]
+    },
+    {
+      "merchant_id": "m_bath_body_works",
+      "merchant_name": "Bath & Body Works",
+      "known_partners": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "unresearched_issuers": [
+        "HDFC Bank"
+      ]
+    },
+    {
+      "merchant_id": "m_nykaa",
+      "merchant_name": "Nykaa",
+      "known_partners": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "unresearched_issuers": [
+        "HDFC Bank"
+      ]
+    },
+    {
+      "merchant_id": "m_taj_experiences",
+      "merchant_name": "Taj Experiences",
+      "known_partners": [
+        "Axis Bank",
+        "SBI Card"
+      ],
+      "unresearched_issuers": [
+        "HDFC Bank"
+      ]
+    }
+  ]
+}

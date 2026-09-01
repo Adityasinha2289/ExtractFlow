@@ -1,2 +1,5 @@
 beautifulsoup4
 playwright
+requests
+PyYAML
+pypdf
